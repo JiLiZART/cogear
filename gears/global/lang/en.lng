@@ -1,0 +1,313 @@
+[global_settings]
+url = "Address of website';
+url_description = "Enter the site address without the http:// and www. (http://www.)";
+name = "Site name";
+name_description = "What the site is all about?(OR Slogan)";
+keywords = "Keywords";
+keywords_description = "The main key words of the site, separated by commas.";
+lang = "Language of the site;
+lang_description = "Select your language.";
+cache = "Cache";
+cache_description = "If the server is not installed <strong>Memcached</strong>, will be used by the file system.";
+debug = "Debug mode";
+debug_description = "Displays information that will help developers understand the situation.";
+date_format = "Date and Time";
+date_format_description = "Used to display the date and time on site.";
+per_page = "Number of entries per page"
+per_page_description = "Is used in all components, if they do not have their own values for this parameter.";
+template = "Template"
+template_description = "Select template for the site."
+offline = "Offline"
+offline_title = "Disabled site title"
+offline_message = "Disabled site messege"
+[global]
+success = "Successfully"
+failure = "Failure"
+modules = "Modules"
+settings = "Settings"
+plugins = "Plugins"
+blocks = "Blocks"
+no_group = "No Group"
+date = "Date"
+import = "Import"
+export = "Export"
+all = "All"
+active_many = "Active"
+inactive_many = "Inactive"
+forms = "Forms"
+per_page = "Records/page"
+already_exists = "<strong>%s</strong> already exists!"
+core = "Core"
+many = "Set"
+back = "Back"
+new = "New"
+[gears]
+global = "Site settings";
+global_description = "Changing basic settings website.";
+;================================================= ===================
+; Calendar
+;================================================= ===================
+[calendar]
+cal_su = "Su"
+cal_mo = "Mo"
+cal_tu = "Tu"
+cal_we = "We"
+cal_th = "Th"
+cal_fr = "Fr"
+cal_sa = "Sa"
+cal_sun = "Sun"
+cal_mon = "Mon"
+cal_tue = "Tue"
+cal_wed = "Wed"
+cal_thu = "Thu"
+cal_fri = "Fri"
+cal_sat = "Sat"
+cal_sunday = "Sunday"
+cal_monday = "Monday"
+cal_tuesday = "Tuesday"
+cal_wednesday = "Wednesday"
+cal_thursday = "Thursday"
+cal_friday = "Friday"
+cal_saturday = "Saturday"
+cal_jan = "Jan"
+cal_feb = "Feb"
+cal_mar = "Mar"
+cal_apr = "Apr"
+cal_may = "May"
+cal_jun = "June"
+cal_jul = "July"
+cal_aug = "Aug"
+cal_sep = "Sep"
+cal_oct = "Oct"
+cal_nov = "Nov"
+cal_dec = "Dec"
+cal_january = "January"
+cal_february = "February"
+cal_march = "March"
+cal_april = "April"
+cal_mayl = "May"
+cal_june = "June"
+cal_july = "July"
+cal_august = "August"
+cal_september = "September"
+cal_october = "October"
+cal_november = "November"
+cal_december = "December"
+;================================================= ===================
+; Date
+;================================================= ===================
+[date]
+date_year = "Year"
+date_years = "Years"
+date_month = "Month."
+date_months = "Months."
+date_week = "Week."
+date_weeks = "Weeks."
+date_day = "Day."
+date_days = "Days."
+date_hour = "Hr."
+date_hours = "Hrs."
+date_minute = "Min"
+date_minutes = "Mins"
+date_second = "Sec."
+date_seconds = "Secs."
+
+second = "second";
+second_couple = "seconds";
+second_many = "seconds";
+
+UM12 = "(UTC -12:00) Date Line"
+UM11 = "(UTC -11:00) Samoa"
+UM10 = "(UTC -10:00) Hawaii"
+UM95 = "(UTC -9:30) Marquesas Islands"
+UM9 = "(UTC -9:00) Alaska"
+UM8 = "(UTC -8:00) North American Pacific Time (U.S. & Canada)"
+UM7 = "(UTC -7:00) Mountain Time (U.S. & Canada), Mexico (Chihuahua, La Paz, Matsatlan)"
+UM6 = "(UTC -6:00) Central Time (U.S. & Canada), Central American, México (Guadalajara, Mexico City, Monterrey)"
+UM5 = "(UTC -5:00) North American Eastern Time (U.S. & Canada), the South American Pacific Time (Bogota, Lima, Quito)"
+UM45 = "(UTC -4:30) Caracas"
+UM4 = "(UTC -4:00) Atlantic Time (Canada), the South American Pacific Time, La Paz, Santiago)"
+UM35 = "(UTC -3:30) Newfoundland"
+UM3 = "(UTC -3:00) Eastern Time South American (Brazil, Buenos Aires, Georgetown), Greenland"
+UM2 = "(UTC -2:00) Mid"
+UM1 = "(UTC -1:00) Azores, Cape Verde"
+UTC = "(UTC) Dublin, Edinburgh, Lisbon, London, Casablanca, Monrovia"
+UP1 = "(UTC +1:00) Amsterdam, Berlin, Bern, Brussels, Vienna, Copenhagen, Madrid, Paris, Rome, Stockholm, Belgrade, Bratislava, Budapest, Warsaw, Ljubljana, Prague, Sarajevo, Skopje, Zagreb"
+UP2 = "(UTC +2:00) Kaliningrad, Kiev, Kishinev, Minsk, Tallinn, Riga, Athens, Bucharest, Vilnius, Sofia, Helsinki, Egypt, Israel, Lebanon, Turkey, South Africa"
+UP3 = "(UTC +3:00) Moscow, Nairobi, Addis Ababa, Iraq, Kuwait, Saudi Arabia"
+UP35 = "(UTC +3:30) Tehran"
+UP4 = "(UTC +4:00) Samara, Armenia, Azerbaijan, Georgia, UAE, Oman"
+UP45 = "(UTC +4:30) Afghanistan"
+UP5 = "(UTC +5:00) Ekaterinburg, Tashkent, Islamabad, Karachi"
+UP55 = "(UTC +5:30) India, Sri Lanka"
+UP575 = "(UTC +5:45) Nepal"
+UP6 = "(UTC +6:00) Novosibirsk, Omsk, Bangladesh, Kazakhstan"
+UP65 = "(UTC +6:30) Myanmar"
+UP7 = "(UTC +7:00) Krasnoyarsk, Bangkok, Jakarta, Hanoi"
+UP8 = "(UTC +8:00) Irkutsk, Ulaan Bataar, Kuala Lumpur, Hong Kong, China, Singapore, Taiwan, Perth"
+UP875 = "(UTC +8:45) Central West Australian Time"
+UP9 = "(UTC +9:00) Yakutsk Time, Korea, Japan"
+UP95 = "(UTC +9:30) Adelaide, Darwin"
+UP10 = "(UTC +10:00) Vladivostok, Brisbane, Canberra, Melbourne, Sydney, Tasmania, Guam, Port Moresby"
+UP105 = "(UTC +10:30) Lord Howe Island"
+UP11 = "(UTC +11:00) Magadan, Solomon Islands, New Caledonia"
+UP115 = "(UTC +11:30) Norfolk Island"
+UP12 = "(UTC +12:00) Kamchatka, Marshall Islands, Fiji, New Zealand"
+UP1275 = "(UTC +12:45) Chatham Islands"
+UP13 = "(UTC +13:00) Tonga"
+UP14 = "(UTC +14:00) Line Islands (Kiribati)"
+;================================================= ===================
+; Database
+;================================================= ===================
+[Db]
+db_invalid_connection_str = "Unable to determine the configuration database on the basis of the resulting connection string."
+db_unable_to_connect = "Unable to connect to the database, using the proposed ID / password."
+db_unable_to_select = "Unable to select database%s"
+db_unable_to_create = "Can not create database%s"
+db_invalid_query = "An attempt to perform an invalid request."
+db_must_set_table = "The request must specify the name of the table."
+db_must_set_database = "You must specify the database name in the configuration file."
+db_must_use_set = "You have to use SET to update the record."
+db_must_use_where = "update query data (UPDATE) can not be executed without the condition WHERE."
+db_del_must_use_where = "Request for deletion of data (DELETE) can not be executed without the condition WHERE."
+db_field_param_missing = "To obtain the data necessary to pass the table name as parameter."
+db_unsupported_function = "For the current database operation is not available."
+db_transaction_failure = "Transaction aborted: rolled back."
+db_unable_to_drop = "Unable to delete the database."
+db_unsuported_feature = "You are trying to use the operations are not supported by this database."
+db_unsuported_compression = "Your chosen compression format is not supported by server."
+db_filepath_error = "Unable to write to the location of your choice."
+db_invalid_cache_path = "path for the cache is invalid or not writable."
+db_table_name_required = "The operation must specify the name of the table."
+db_column_name_required = "The operation must specify the column name."
+db_column_definition_required = "The operation must specify the column."
+db_unable_to_set_charset = "Can not set charset%s for soednineniya with the database."
+db_error_heading = "Database failure"
+;================================================= ===================
+; Email
+;================================================= ===================
+[Email]
+email_must_be_array = "A method for checking e-mail should be transmitted by the array."
+email_invalid_address = "Invalid e-mail:%s."
+email_attachment_missing = "Unable to find investments for writing:%s."
+email_attachment_unreadable = "Unable to open the attachment%s."
+email_no_recipients = "You must specify the recipients in the fields: To, Cc, or Bcc."
+email_send_failure_phpmail = "Unable to send mail using the PHP-function mail (). should properly configure the server."
+email_send_failure_sendmail = "Unable to send mail using sendmail. You must configure the server."
+email_send_failure_smtp = "Unable to send mail using SMTP. You must configure the server."
+email_sent = "Your message was successfully sent. Used protocol:%s."
+email_no_socket = "Unable to establish a socket connection to Sendmail. Please check your settings."
+email_no_hostname = "You did not specify the server SMTP."
+email_smtp_error = "Errors in data transmission via SMTP:%s."
+email_no_smtp_unpw = "Error: Please enter your username and password for SMTP."
+email_failed_smtp_login = "Unable to perform command AUTH LOGIN. Error:%s."
+email_smtp_auth_un = "Unable to authenticate the user name. Error:%s."
+email_smtp_auth_pw = "Unable to authenticate your password. Error:%s."
+email_smtp_data_failure = "unable to send data:%s."
+;================================================= ===================
+; FTP
+;================================================= ===================
+[ftp]
+ftp_no_connection = "Unable to install FTP-connection. Make sure you are able to connect to the server before you start to perform operations with files."
+ftp_unable_to_connect = "Unable to connect to the specified FTP-server."
+ftp_unable_to_login = "Login failed on the FTP-server. Check your username and password."
+ftp_unable_to_makdir = "Could not create the specified directory."
+ftp_unable_to_changedir = "Unable to change directory."
+ftp_unable_to_chmod = "Unable to set permissions. Check the path. Warning: this function works, starting with version PHP5."
+ftp_unable_to_upload = "Unable to load the file specified. Check the path to the file."
+ftp_no_source_file = "Could not find the file specified. Check the path to the file."
+ftp_unable_to_rename = "Could not rename file."
+ftp_unable_to_delete = "Unable to delete file."
+ftp_unable_to_move = "Unable to move file. Ensure the target directory exists."
+;================================================= ===================
+; ImgLib
+;================================================= ===================
+[imglib]
+imglib_source_image_required = "Specify the file name of the image."
+imglib_gd_required = "For this you need the library GD."
+imglib_gd_required_for_props = "Your server must be installed GD library to obtain the property values of images."
+imglib_unsupported_imagecreate = "Your server does not support function work with this type of image."
+imglib_gif_not_supported = "Usually there is no support for GIF images in connection with the license restrictions. Instead, you can use JPG or PNG."
+imglib_jpg_not_supported = "Unknown supported JPG"
+imglib_png_not_supported = "Unknown supported PNG"
+imglib_jpg_or_png_required = "You can select a library of image processing (supports only JPG or PNG-files)."
+imglib_copy_error = "Error while trying to overwrite the file. Make sure that this directory is writable."
+imglib_rotate_unsupported = "It seems that the image rotation is not supported library."
+imglib_libpath_invalid = "Path to a library of image processing is not valid. Please fix it."
+imglib_image_process_failed = "Unable to process the image. Make sure that your server supports the selected package for image processing, as well as the correct path to these packages."
+imglib_rotation_angle_required = "You must specify the value of the angle for rotation of the image."
+imglib_writing_failed_gif = "image GIF"; mention of this bug in the code file there, so it's unclear what the author had in mind:)
+imglib_invalid_path = "image path is incorrect."
+imglib_copy_failed = "Unable to execute a function to copy the image file."
+imglib_missing_font = "Font not found."
+;================================================= ===================
+; Numbers
+;================================================= ===================
+[number]
+terabyte_abbr = "TB"
+gigabyte_abbr = "GB"
+megabyte_abbr = "MB"
+kilobyte_abbr = "KB"
+bytes = "Byte"
+;================================================= ===================
+; Profiler
+;================================================= ===================
+[profiler]
+profiler_database = "DATABASE"
+profiler_controller_info = "class / method"
+profiler_benchmarks = "Performance"
+profiler_queries = "Query"
+
+profiler_post_data = "DATA POST"
+profiler_uri_string = "STRING URI"
+profiler_memory_usage = "USE OF MEMORY"
+profiler_no_db = "database driver is not loaded"
+profiler_no_queries = "No query was not executed"
+profiler_no_post = "No data sent by POST"
+profiler_no_get = "No data passed by GET"
+profiler_no_uri = "No data passed through the URI"
+profiler_no_memory = "Usage of memory available"
+;================================================= ===================
+; Scaffolding
+;================================================= ===================
+[scaffolding]
+scaff_view_records = "Viewing records"
+scaff_create_record = "Create new record"
+scaff_add = "Add Data"
+scaff_view = "Data View"
+scaff_edit = "Edit"
+scaff_delete = "Delete"
+scaff_view_all = "All"
+scaff_yes = "Yes"
+scaff_no = "No"
+scaff_no_data = "In this table, no data."
+scaff_del_confirm = "Are you sure you want to delete this entry"
+;================================================= ===================
+; Unit Test
+;================================================= ===================
+[unit_test]
+ut_test_name = "Test Name"
+ut_test_datatype = "Tested data type
+ut_res_datatype = "Expected data type
+ut_result = "Result"
+ut_undefined = "Test Name not specified"
+ut_file = "File Name"
+ut_line = "Line Number"
+ut_passed = "Passed"
+ut_failed = "failed"
+// Not sure that is generally translated data types
+ut_boolean = "Boolean"
+ut_integer = "Integer"
+ut_float = "Float"
+ut_double = "Float" 
+// can be the same as float
+ut_string = "String"
+ut_array = "Array"
+ut_object = "Object"
+ut_resource = "Resource"
+ut_null = "Null"
+;================================================= ===================
+; Ajax
+;================================================= ===================
+[ajax]
+should_wait = "Do not use this function as often. <br> Wait%d %s.";

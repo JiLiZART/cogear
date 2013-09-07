@@ -1,0 +1,70 @@
+#sidebar{
+	padding-top: 30px;
+}
+#sidebar .widget{
+	width: 290px;
+}
+#sidebar .widget .widget-header{
+	background: #636363 url({$tpl}images/grayscale-bg.png) repeat-x top left;
+	border: 1px solid #636363	;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-top-left-radius: 8px;
+	border-radius-top-left: 8px;
+	border-radius-top-right: 8px;
+}
+#sidebar .widget .widget-header h3{
+    text-shadow: 0 -1px 0 #3F3F3F;
+	font-size: 1em;
+	font-family: "Lucida Grande",Verdana,Arial,sans-serif;
+	padding: 5px 10px;
+	margin: 0;
+	color: #FFF;
+}
+#sidebar .widget .widget-content{
+	padding: 10px 10px;
+	margin: 0 0 10px;
+	font-size: 1.123em;
+	border-left: 1px solid #DFDFDF	;
+	border-right: 1px solid #DFDFDF	;
+	border-bottom: 1px solid #DFDFDF	;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	border-radius-bottomleft: 8px;
+	border-radius-bottomright: 8px;
+
+/*
+	-moz-border-radius:3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 1px 1px 3px #ABABAB;
+	-moz-box-shadow: 1px 1px 3px #ABABAB;
+*/
+}
+#sidebar .white{
+	background: #FFFFFF;
+	width: 290px;
+	padding: 0;
+	border: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+}
+#sidebar .white .widget-header, #sidebar .white .widget-content{
+	padding: 0;
+	border: none;
+	
+}
+#sidebar .noborder, #sidebar .no-border{
+	border: none;
+}
+
+#sidebar .widget h1{
+ margin: 0 0 5px 0;
+ font-size: 1.4em;
+ font-weight: normal;
+}
+#sidebar .no-padding{
+ padding: 0;
+}

@@ -1,0 +1,11 @@
+;==================================================
+; Pager config
+;==================================================
+title = Pager
+description = Create pagination
+core = 1.x
+version = 1.0
+group=core
+permanent = TRUE
+models = FALSE;
+;prefix="page"

@@ -1,0 +1,9 @@
+.navbar {
+   padding: 10px;
+   border: 1px solid #D9EAF5;	
+   background: #FFFFFF url(/gears/global/img/gradient-blue.gif) repeat-x scroll 0 0;
+}
+.navbar p{
+	padding: 0;
+	margin: 0;
+}

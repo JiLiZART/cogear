@@ -1,0 +1,65 @@
+div#cpanel-holder{
+	height: 25px;
+	background: url({$tpl}images/cpanel.png) repeat-x top left;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	-moz-box-shadow: 0px 1px 3px #2CCAFF;
+	-webkit-box-shadow: 0px 1px 3px #2CCAFF;
+	box-shadow: 0px 1px 3px #2CCAFF;
+	z-index: 1000;
+	opacity: 0.85;
+}
+ul#cpanel{
+	height: 25px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+ul#cpanel li.no-image{
+	list-style: none;
+}
+ul#cpanel.authorized li:first-child{
+	background: none;
+	padding-left: 4px;
+}
+ul#cpanel li{
+	padding: 1px 8px 0px 16px;
+	margin: 0;
+	height: 35px;
+	float: left;
+	vertical-align: top;
+	list-style: none;
+	background: url({$tpl}images/cpanel-li.png) no-repeat top left;
+	text-shadow: 1px 1px 2px #000;
+}
+ul#cpanel li span{
+	text-shadow: 1px 0px 2px #000;
+}
+#cpanel-charge .cpanel-number{
+	text-shadow: 1px 1px 2px #FFF;
+}
+ul#cpanel li a, ul#cpanel li div, ul#cpanel li span{
+	color: #fff;
+	text-decoration: none;
+	vertical-align: top;
+	position: static;
+	top: 3px;
+	border-bottom: 1px solid transparent;
+}
+ul#cpanel li a:hover{
+	border-bottom: 1px dotted #fff;
+}
+ul#cpanel li a.no-decoration, ul#cpanel li a.no-decoration:hover{
+	border: none;
+}
+ul#cpanel li img{
+	margin: 4px 0 0 0;
+}
+ul#cpanel li img.avatar{
+	margin: 1px 0 0 0;
+}
+ul#cpanel li span.cpanel-number{
+	font-size: 1.2em;
+}

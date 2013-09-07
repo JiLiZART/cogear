@@ -1,0 +1,7 @@
+[gears]
+pages = "Static page"
+pages_description = "User Information."
+
+[pages]
+page = "page"
+pages = "Pages"

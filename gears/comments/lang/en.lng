@@ -1,0 +1,31 @@
+[gears]
+comments = "Comments"
+comments_description = "Allows users to leave comments."
+
+[comments]
+comment = "Comment"
+comment_couple = "Comment"
+comment_many = "Comments"
+no_comments = "No Comments Yet! Be the first one to comment"
+post_comment = "Comment"
+body = "Comment"
+not_allowed = "Only registered users can write comments."
+all_comments = "All comments"
+duplicate = "You just posted the exact same comment!"
+deleted_notice = "Comment removed."
+add_success = "Your comment has been published!"
+prevent_doubleposting_time = "You sent more than one comment for %d (second | seconds)!"
+not_registered = "Would you like to comment? <a href='/user/register/'> Register First</ a>."
+add_failure = "Unable to post a comment!"
+prevent_doubleposting = "Something you often with the comments! Podozhite %d seconds."
+item_author = "Author"
+[widgets]
+comments = "Comments"
+
+[acl]
+reply_self = "Leaving the answers to their own comments"
+delete_node_author = "The author of the node can hide some comments"
+destroy = "Remove comments (all)"
+edit_node_author = "The author of the node may delete comments"
+view_ip = "To see the IP of his commentary"
+view_ip_all = "To see all comments on IP"

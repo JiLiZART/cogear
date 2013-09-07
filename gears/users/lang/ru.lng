@@ -1,0 +1,11 @@
+[gears]
+users = "Пользователи"
+users_description = "Отображает списки пользоватлей"
+[users]
+list = "Список пользователей"
+fresh = "Новоприбывшие"
+[widgets]
+online = "На сайте"
+online_data = "<p>%s</p>
+Гостей: %s<br>
+Всего: %s"

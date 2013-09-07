@@ -1,0 +1,6 @@
+title = "Cron"
+description = "Scheduler — makes live easier"
+group = core
+core = 1.x
+version = 1.0
+poormanscron = FALSE

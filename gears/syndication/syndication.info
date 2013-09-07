@@ -1,0 +1,14 @@
+;==================================================
+; Syndication config
+;==================================================
+title=Syndication
+description="RSS feeds for nodes & comments."
+core = 1.x
+version = 1.1
+group=core
+routes[] = "rss/? = index"
+routes[] = "rss/admin/?.*? = rss/"
+routes[] = "rss/(.*) = $1"
+per_page = 50
+position=11
+index_per_page = 20

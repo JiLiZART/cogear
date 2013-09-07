@@ -1,0 +1,54 @@
+[gears]
+menu = "Menu"
+menu_description = "Setting up navigation."
+
+[menu]
+items = "Menu Items"
+
+[menu_createdit]
+name_description = "Enter the name of the menu."
+url_name = "URL Name"
+url_name_description = "Only letters. This option will be used when working with templates. The menu will be displayed as <b> ($menu[top]) </ b>, if you call it <b> top </ b>."
+template = "Template menu"
+show_pattern = "Mask display"
+show_pattern_description = "You can specify a mask path to the menu to show only on certain pages. At one mask per line. <blockquote>
+Examples: <br>
+<b> user /: any </ b>
+<p>
+For the record - supported <a href=''http://ru.wikipedia.org/wiki/Regex''> regular expressions </ a>.
+</ P>
+</ Blockquote>
+"
+resize = "The size of icons"
+resize_description = "If the menu is a graphical, point sizes, which will be reduced to downloadable images."
+crop = "Crop the image to fit?"
+status = "Status"
+is_active = "Active"
+access = "Access"
+user = "Users"
+guest = "Guests"
+all = "all"
+output = "Display order in the template"
+output_description = "If you want to show the menu automatically, not through a variable, enter the serial number of the element in the hierarchy of the output template engine. Set to 0 if you want to display a menu template variable ($menu.machine_name)
+"
+
+
+[menu_item_createdit]
+url_name = "Machine Name"
+url_name_description = "Only letters. This option will be used when working with patterns - namely, to set the element id."
+link = "Link"
+link_description = "Enter the relative path references. <blockquote> Example: <br/> <b> user / </ b> <br/> <b> nodes / all </ b> </ blockquote>"
+pattern = "pattern of the active menu item"
+pattern_description = "Select one or more patterns of the address bar, on which this menu item will appear active.
+<blockquote> Examples: <br>
+<b> user /: any </ b> <br/>
+<b> user / </ b> <br/>
+<b> user / login </ b> <br/>
+</ Blockquote>
+"
+image = "Menu icon"
+image_description = "Optional."
+access = "Show"
+user = "Users"
+guest = "Guests"
+all = "all"

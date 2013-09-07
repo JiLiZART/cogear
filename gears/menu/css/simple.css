@@ -1,0 +1,11 @@
+.simple-menu{
+	
+}
+.simple-menu li{
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+.simple-menu li.active a{
+	color:red;
+}

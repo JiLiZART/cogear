@@ -1,0 +1,10 @@
+[gears]
+user_groups = "User Groups"
+user_groups_description = "Manage user groups."
+
+[user_groups]
+group_name = "Group name"
+user_group = "Group"
+guest = "guest"
+user = "user"
+admin = "admin"

@@ -1,0 +1,12 @@
+[gears]
+twitter = "Twitter"
+twitter_description = "Twitter integration."
+[twitter]
+add_post = "Send to Twitter"
+node_info = "Show icon''Send'' to Twitter for information on the topic"
+template_tweet = "Show the latest tweets in your template under the guise of the global variable ({$tweet})"
+cross_posting = "Send a link to the topic in your Twitter"
+login = "Login"
+login_description = "Enter the username of the account, Twitter, in which you want to send links to the topics."
+password = "Password"
+password_description = "Enter the account password of Twitter, in which you want to send links to the topics."

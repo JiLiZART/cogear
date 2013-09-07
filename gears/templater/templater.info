@@ -1,0 +1,5 @@
+title = "Templater"
+description = "Template manager"
+group = "core"
+core = "1.0"
+version = "1.0"

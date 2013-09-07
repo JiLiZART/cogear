@@ -1,0 +1,11 @@
+[gears]
+user_groups = "Группы пользователей"
+user_groups_description = "Управление группами пользователей."
+
+[user_groups]
+group_name = "Имя группы"
+user_group = "Группа пользователя"
+guest = "гость"
+user = "пользователь"
+admin = "администратор"
+

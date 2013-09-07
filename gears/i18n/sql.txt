@@ -1,0 +1,28 @@
+CREATE TABLE IF NOT EXISTS `i18n_languages` (
+  `id` tinyint(3) unsigned NOT NULL auto_increment,
+  `abbr` varchar(2) NOT NULL,
+  `name` varchar(30) NOT NULL,
+  `encoding` varchar(30) NOT NULL default 'utf-8',
+  PRIMARY KEY  (`id`),
+  UNIQUE KEY `abbr` (`abbr`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+INSERT INTO `i18n_languages` VALUES (1, 'ru', 'Русский', 'utf-8');
+INSERT INTO `i18n_languages` VALUES (2, 'en', 'English', 'utf-8');
+
+CREATE TABLE IF NOT EXISTS `i18n_sections` (
+  `id` tinyint(3) unsigned NOT NULL auto_increment,
+  `name` varchar(255) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+
+REATE TABLE IF NOT EXISTS `i18n_text` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `lid` tinyint(3) unsigned NOT NULL,
+  `sid` smallint(6) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `value` text NOT NULL,
+  PRIMARY KEY  (`id`),
+  KEY `lid` (`lid`),
+  KEY `sid` (`sid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;

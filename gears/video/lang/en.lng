@@ -1,0 +1,9 @@
+[gears]
+video = "videos"
+video_description = "Allows a variety of materials with the help of video sharing."
+
+[video]
+prompt = "Enter the link to the video from YouTube, RuTube, Vimeo, etc."
+
+[acl]
+video = "Converting Video Tag"

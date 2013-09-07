@@ -1,0 +1,10 @@
+;==================================================
+; Cut config 
+;==================================================
+title=Cut
+description=Allows user to cut node body into tizer and full version
+core = 1.x
+version = 1.0
+group=plugins
+enabled = TRUE
+position=30

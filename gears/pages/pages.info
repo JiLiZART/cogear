@@ -1,0 +1,12 @@
+;==================================================
+; Pages config
+;==================================================
+title=Pages
+description=Allow admin to create static pages.
+core = 1.x
+version = 1.0
+group=modules
+;routes[] = ":empty = pages/main"
+enabled = TRUE
+no_sidebar = TRUE
+models = FALSE;

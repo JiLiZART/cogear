@@ -1,0 +1,8 @@
+[admin]
+control_panel = "Панель управления"
+admin_button = "админка"
+clear_cache = "очистить кэш"
+
+[gears]
+admin = "Панель управления сайтом"
+admin_description = "Изменение настроек и параметров движка.";

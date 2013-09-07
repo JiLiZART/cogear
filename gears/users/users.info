@@ -1,0 +1,10 @@
+;==================================================
+; Users config
+;==================================================
+title = Users
+description = Show users list.
+core = 1.x
+version = 1.0
+group=modules
+enabled = TRUE
+position = 20

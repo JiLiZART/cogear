@@ -1,0 +1,10 @@
+;==================================================
+; Errors config
+;==================================================
+title = Errors
+core = 1.x
+version = 1.0
+group = core
+description = Allow admin to operate error pages
+position = -1
+permanent = TRUE;

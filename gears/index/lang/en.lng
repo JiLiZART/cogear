@@ -1,0 +1,14 @@
+[gears]
+index = "Home"
+index_description = "Display posts from blogs and communities."
+[acl]
+promote = "Show topics at home"
+always_on_index = "Users topics are always displayed on the front page"
+[index]
+promoted = "Topic sent to the main page."
+depromoted = "Topic removed from the home page."
+promote_error = "Unable to change the status of the topic."
+on_index = "Show on index page"
+best = "Best"
+new = "New"
+label = "Send to front page"

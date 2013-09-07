@@ -1,0 +1,6 @@
+title = Menu
+description = Add simple menu
+group = modules
+enabled = FALSE
+version = 0.1
+core = 1.x

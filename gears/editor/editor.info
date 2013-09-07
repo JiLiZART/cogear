@@ -1,0 +1,10 @@
+;==================================================
+; Editor config
+;==================================================
+title = Editor
+description = Perform text editor;
+core = 1.x
+version = 1.0
+group = modules
+enabled = TRUE
+position = 5

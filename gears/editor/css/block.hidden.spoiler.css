@@ -1,0 +1,49 @@
+.block, .spoiler {
+	border: 1px solid #DDDDDD;
+	margin: 5px;
+}
+
+.spoiler.collapsed {
+	border-bottom: none;
+}
+
+.block .header, .spoiler .header {
+	background: #F5F5F5;
+	color: #555555;
+	padding: 5px;
+	font-weight: bold;
+	border-bottom: 1px solid #DDDDDD;
+	cursor: pointer;
+}
+
+.spoiler .header a {
+	color: #555555;
+}
+
+.block .body, .spoiler .body {
+	padding: 5px;
+	font-size: 11px;
+}
+
+.spoiler.mini {
+	border: none;
+	margin: 0;
+}
+
+.spoiler.mini .header {
+	background: none;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+.spoiler.mini .header a {
+	color: #336699;
+}
+
+.spoiler.mini .body {
+	padding: 0px 0px 0px 10px;
+	margin: 5px 0px 5px 10px;
+	border-left: 2px solid #DDDDDD;
+}

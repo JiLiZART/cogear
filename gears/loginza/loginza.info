@@ -1,0 +1,17 @@
+;==================================================
+; Loginza Config
+;==================================================
+
+title = Loginza
+description = Loginza Plugin
+core = 1.x
+version = 1.1
+group = core
+
+;==================================================
+; Profile
+;==================================================
+author = "CoGear Team, Konovalov Aleksey aka Avalak"
+link = ""
+email = ""
+

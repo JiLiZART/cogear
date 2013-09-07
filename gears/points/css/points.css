@@ -1,0 +1,83 @@
+.vote-up a, .vote-down a, .votes a{
+	padding: 0 16px 0 0px;
+	width: 16px;
+	height: 16px;
+}
+.votes{
+	padding: 0 7px;
+	font-size: 1.2em;
+	text-align: center;
+}
+.voting div{
+	float: left;
+	vertical-align: baseline;
+}
+.vote-up a{
+	background: url(/gears/points/img/vote.gif) no-repeat 0px 0px;
+}
+.vote-up.passive a{
+	background: url(/gears/points/img/vote.gif) no-repeat -16px 0px;
+}
+.vote-down a{
+	background: url(/gears/points/img/vote.gif) no-repeat -34px 0px;
+}
+.vote-down.passive a{
+	background: url(/gears/points/img/vote.gif) no-repeat -49px 0px;
+}
+.votes a{
+	background: url(/gears/points/img/vote.gif) no-repeat -68px 0px;
+	cursor: pointer;
+}
+#cpanel-points.good span.cpanel-number, .good {
+	color:#7CCA4E;
+}
+#cpanel-points.bad span.cpanel-number,.bad {
+	color:#D64248;
+}
+#cpanel-points span.cpanel-number, #cpanel-charge span.cpanel-number{
+	font-size: 1.8em;
+}
+#cpanel-points span.cpanel-number{
+	color: #E3E3E3;
+}
+#cpanel-charge span.cpanel-number{
+	color:#9C56CD;
+}
+.comment .vote-comment{
+	float: right;
+	display: block;
+}
+#userinfo_panel{
+	position: relative;
+}
+#userinfo_panel .voting{
+	margin: 10px 0 -10px 20px;	
+	clear: right;
+}
+#userinfo_panel .vote-up,#userinfo_panel .vote-down{
+	padding-top: 3px;
+}
+#userinfo_panel .votes{
+	font-size: 1.4em;
+}
+#community_header {
+	position: relative;
+}
+#community_header .voting{
+	font-size: 1.2em;
+	margin: 10px 0 0 25px;
+}
+#community_header .voting .votes{
+	font-size: 1.2em;
+	vertical-align: middle;
+}
+.node .title .voting{
+	float: right;
+	font-size: 0.65em;
+	margin-top: 10px;
+}
+.points_counter{
+	font-size: 0.7em;
+	float: left;
+	padding: 0 5px;
+}

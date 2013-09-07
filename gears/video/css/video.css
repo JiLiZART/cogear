@@ -1,0 +1,11 @@
+.video{
+text-align: center;
+padding: 5px;
+margin: 0 0 5px 0;
+background: #F7F7F7;
+border: 1px solid #CECECE;
+}
+.video object, .video embed{
+	max-width: 100%;
+	_width: expression(document.body.clientWidth > 600 ? "600" : "auto");
+}

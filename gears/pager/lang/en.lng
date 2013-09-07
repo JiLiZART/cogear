@@ -1,0 +1,9 @@
+[gears]
+pager = "pagination"
+pager_description = "Allows you to share content on a page."
+
+[pager]
+first = "←"
+last = "→"
+next = "older"
+prev = "newer"

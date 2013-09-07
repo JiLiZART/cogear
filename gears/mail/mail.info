@@ -1,0 +1,35 @@
+;==================================================
+; Changelog
+;==================================================
+; Version 1.1
+;==================================================
+; Add inboxes as option to standart mail.
+;==================================================
+; Mail and PM config
+;==================================================
+title = Mail and PM
+description = Users private conversation and email sender
+core = 1.x
+version = 1.2
+group = core
+check_time = 60
+per_page = 50
+position = 10
+subdomain = TRUE;
+site_email = "admin@localhost"
+from_name = "cogear"
+mail_comment_reply = TRUE
+mail_comment_post_author = TRUE
+no_sidebar = TRUE;
+; mode can be line or inbox
+mode = inbox
+url = mail
+; to change a path comment previous line and uncomment 2 following keeping them synchronized
+;url = pm
+;routes[] = "pm/?(.*)? = mail/$1"
+
+;[smtp]
+;host = "smtp.gmail.com"
+;secure = "ssl" ; ssl, tls or just comment line
+;user = "@gmail.com" ; Important! site_email must be a real email address on smtp host
+;password = ""

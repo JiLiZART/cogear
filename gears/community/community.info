@@ -1,0 +1,27 @@
+;==================================================
+; Communities config
+;==================================================
+title = "Communities";
+description = "Allow users to create communities and participate them";
+core = 1.x
+version = 1.1
+group = "modules"
+position = 2
+enabled = TRUE
+per_page = 7;
+per_page_list = 20;
+per_page_users = 50;
+subdomain=TRUE
+required[] = nodes
+;--------------------------------------------------
+; Routes
+;--------------------------------------------------
+routes[] = "% = community"
+routes[] = "news = community/news"
+routes[] = "video = community/video"
+[logo]
+size[] = 24x24
+size[] = 64x64
+size[] = 128x128
+
+

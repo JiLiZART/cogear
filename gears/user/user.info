@@ -1,0 +1,20 @@
+;==================================================
+; User config
+;==================================================
+title = User
+description = User gear and its management
+core = 1.x
+version = 1.0
+group = core
+position = 1
+registration = TRUE
+email_activate=FALSE
+subdomain[] = user
+no_sidebar = TRUE;
+openid = TRUE;
+[avatar]
+default = "/uploads/avatars/0/noavatar.jpg";
+size[] = 24x24
+size[] = 64x64
+size[] = 128x128
+

@@ -1,0 +1,6 @@
+title = "Lighter"
+description = "Syntax highlight"
+group = plugins
+core = 1.x
+version = 1.0
+enabled = TRUE

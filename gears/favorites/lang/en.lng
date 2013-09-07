@@ -1,0 +1,12 @@
+[gears]
+favorites = "My Favorites"
+favorites_description = "Allow the users to bring the publication to Favorites"
+
+[favorites]
+favorite = "Favorites"
+add = "Add to Favorites"
+remove = "Remove from Favorites"
+add_success = "Material is added to favorites!"
+remove_success = "Material deleted from favorites!"
+[acl]
+manage = "Manage favorites"

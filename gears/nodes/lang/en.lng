@@ -1,0 +1,35 @@
+[gears]
+nodes = "Publications"
+nodes_description = "Allows you to publish material on the site."
+
+
+[nodes]
+create = "write"
+unpublished = "draft"
+views = "%d (view|views|views)"
+
+[nodes_createdit]
+create_new_node = "New Publication"
+edit_post = "editing of the publication"
+name = "Title"
+name_description = "captures the essence of the material."
+url_name = "Path"
+url_name_description = "Specifies the address of the page. <br>
+It is best to use the English translation of the title, for example, if the material was named «Apple introduced new iPod», then <i> Path </i> may be so - apple-introduced-new-ipods. <br>
+Only letters, digits and dashes ». <br>
+You can leave it blank, then the address will be generated automatically. "
+body = "Text"
+body_description = "You can use <a href=''javascript:void(0)'' onclick=''ajax.page('/ajax/pages/html',this)''>html-tags</a>."
+created_date = "Time of publication"
+prevent_double_post = "You have already posted similar stuff recently!"
+find_similar = "may already have such a post"
+
+[nodes_draft]
+saved = "Draft saved."
+saved_failure = "Could not save a draft."
+loaded = "Draft loaded."
+loaded_failure = "Draft was not found."
+found = "found the draft. Recover?"
+
+[acl]
+views = "Seeing the number of views"

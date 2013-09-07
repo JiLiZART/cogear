@@ -1,0 +1,32 @@
+.drag_list{
+	border: 1px solid #D4D4D4;
+	margin: 5px;
+	width: 210px;
+	text-align: center;
+	float: left;
+	background: #F8F8F8;
+}
+.drag_list ul{
+	text-align: left;
+	width: 170px;
+	margin: 10px 20px;
+	padding: 0px;
+}
+.drag_list ul li{
+	list-style: none;
+	padding: 5px;
+	margin: 0 0 5px 0;
+	border: 1px solid #87D1F6;
+	background: #DEEEF6;
+	cursor: move;
+}
+.drag_list ul.alt li{
+	border: 1px solid #65F472;
+	background: #DEF6E0;
+	
+}
+.drag_list  ul.sortables li.undraggable{
+	border: none;
+	background: none;
+	visibility: hidden;
+}

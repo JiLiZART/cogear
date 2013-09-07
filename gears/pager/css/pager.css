@@ -1,0 +1,40 @@
+/* @group navigator */
+
+#pager {
+	text-align: center;
+	margin: 20px 0;
+}
+#pager #next-prev{
+	margin: 10px;
+	font-size: 1.4em;
+	font-family: Arial;
+}
+#pager #next-prev a{
+	color: #98C1FD;
+}
+#pager #pages a {
+	padding: 2px 6px;
+	text-decoration: none;
+	color: #3E3E3E;
+	border: 1px solid #fff;
+}
+#pager #pages span#current_page{
+	padding: 2px 6px;
+	background: #CFE2FD;
+	color: #3E3E3E;
+	border: 1px solid #8FC6F8;
+}
+#pager #pages a, #pager #pages span{
+	margin: 0 3px;
+}
+#pager #pages a:hover {
+	background: #DFEBFD;
+	border: 1px solid #BAD6FD;
+	color: #666666;
+}
+
+#pager #pages b {
+	padding: 4px;
+}
+
+/* @end */

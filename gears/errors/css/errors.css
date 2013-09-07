@@ -1,0 +1,10 @@
+.global-error{
+	margin: 10px auto;
+	padding: 5px;
+	width:80%;
+	min-height: 300px;
+}
+fieldset#info{
+    width: 98%;
+	margin: 0 0px auto;
+}

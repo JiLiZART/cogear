@@ -1,0 +1,16 @@
+;==================================================
+; Twitter config
+;==================================================
+title = Twitter
+description = "Integrate twitter with user profile"
+enabled = TRUE
+group=modules
+core=1.x
+version=1.1
+refresh = 600
+position=50
+template_tweet = TRUE
+cross_posting = FALSE
+node_info = TRUE
+login = ""
+password = ""

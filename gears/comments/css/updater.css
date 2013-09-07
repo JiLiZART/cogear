@@ -1,0 +1,20 @@
+#comments-update{
+	text-align: center;
+	padding-bottom: 4px;
+}
+
+#comments-update #director{
+	background: #fff;
+}
+
+#comments-update #director a{
+	text-decoration: none;
+}
+
+#comments-update img{
+	background: #EBEBEB;
+}
+
+#comments-update #linker-holder{
+	background: #F8F8F8;
+}

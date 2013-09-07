@@ -1,0 +1,8 @@
+[gears]
+jevix = "Jevix"
+jevix_description = "Фильтр HTML-кода"
+[jevix]
+auto_br_mode = "отключить автоматический перенос строк и обработку ссылок"
+disable_jevix = "отключить парсер кода"
+[acl]
+disable="Отключать"

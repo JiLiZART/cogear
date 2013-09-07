@@ -1,0 +1,50 @@
+#userinfo_panel h1{
+	display: inline;
+}
+.line div{
+	vertical-align: middle;
+}
+.line div img{
+	vertical-align: middle;
+}
+
+/* @group line */
+
+.line {
+	margin: 5px 0;
+	clear: left;
+	padding: 8px 0;
+	width: 100%;
+}
+
+.line .left {
+	width: 20%;
+	float: left;
+	font-weight: bold;
+	text-align: right;
+	padding: 0 5px 0 0;
+	overflow: hidden;
+
+/*Лекарство*/
+   _height: 1
+
+%;
+	/*оно же для IE*/
+   //zoom: 1;
+}
+
+.line .right {
+	width: 70%;
+	margin-left: 22px;
+	padding: 0 0 0 10px;
+	overflow: hidden;
+
+/*Лекарство*/
+   _height: 1
+
+%;
+	/*оно же для IE*/
+   //zoom: 1;
+}
+
+/* @end */

@@ -1,0 +1,11 @@
+[gears]
+users = "User"
+users_description = "Displays online users list."
+[users]
+list = "List"
+fresh = "Newcomers"
+[widgets]
+online = "Online"
+online_data = "<p>%s </ p>
+Guests:%s <br>
+Total:%s "

@@ -1,0 +1,18 @@
+.polyGrid {
+	position: relative;
+	width: 100%;
+	min-width: 600px;
+	_width: expression(this.offsetWidth < 600?"600":"this.offsetWidth");
+}
+.polyGrid .polygon img{
+	float: left;
+}
+.polyGrid .polygon{
+	float: left;
+	width: 49%;
+	margin: 4px 4px 4px 0;
+	padding: 4px 0 0 0;
+}
+.polyGrid .polygon h3{
+	margin: 2px 0 0 0;
+}

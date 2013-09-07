@@ -1,0 +1,33 @@
+span.header {
+	font-size: 1.8em;
+}
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #272727;
+}
+h1 sup{
+	font-size: 0.5em;
+	color: #868686;
+	margin: 2px;
+	font-weight: normal;
+}
+h1 sub{
+	font-size: 0.5em;
+	color: #868686;
+	font-weight: normal;
+	line-height: -20px;
+}
+h1 span{
+	color: #5C5C5C;
+}
+
+h2 {
+	font-size: 1.3em;
+	color: #3E3E3E;
+}
+h3{
+	font-size: 1.2em;
+	color: #A1A1A1;
+}
+

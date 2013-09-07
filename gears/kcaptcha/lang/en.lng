@@ -1,0 +1,12 @@
+[kcaptcha]
+forms = "Forms"
+forms_description = "List the comma separated list of names of forms that will be used captcha."
+words = "Word List"
+words_description = "List the keywords separated by a comma, which will be used in any order to create a captcha."
+label = "Enter Code"
+description = "Please confirm your humanity by entering a specified code."
+wrong = "You have entered an incorrect code. Try again."
+
+[gears]
+kcaptcha_description = "Alternative protection against bots."
+kcaptcha = "KCaptcha"

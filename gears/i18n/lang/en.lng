@@ -1,0 +1,21 @@
+[gears]
+i18n = "Internationalization"
+i18n_description = "Translation of linguistic phrases to work with languages."
+
+[i18n]
+language = "language"
+value = "value"
+texts = "texts"
+languages = "languages"
+abbr = "abbreviation"
+abbr_description = "Reduction of two letters. For example, <strong> ru</strong>."
+encoding = "encoding"
+encoding_description = "For example, <strong> utf-8</strong>."
+sections = "sections"
+section = "Section"
+locale = "Language locale server"
+locale_description = "locale-dependent output of information - such as date and time. <br>
+To find a list of all locales use <a href=''http://google.com'' rel=''nofollow''> google.com </ a>. <br>
+To the list of locales that are installed on the server, type the command line «locale-l». <br>
+If you can not specify the desired locale, leave it blank. "
+clean = "Language cache was successfully updated."

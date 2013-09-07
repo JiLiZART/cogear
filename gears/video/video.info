@@ -1,0 +1,10 @@
+;==================================================
+; Video config
+;==================================================
+title=Video
+description=Parse code for embed video
+core = 1.x
+version = 1.0
+group=plugins
+enabled = TRUE
+position=20

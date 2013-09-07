@@ -1,0 +1,11 @@
+;==================================================
+; Jevix config
+;==================================================
+title=Jevix
+description=HTML input parser
+core = 1.x
+version = 1.0
+group=core
+position=10
+enabled=TRUE
+models = FALSE

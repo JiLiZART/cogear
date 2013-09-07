@@ -1,0 +1,3 @@
+[gears]
+lighter = "Подсветка синтаксиса"
+lighter_description = "Подсвечивает синтаксис в теге &lt;code&gt; при помощи JavaScript"

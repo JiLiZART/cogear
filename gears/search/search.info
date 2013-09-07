@@ -1,0 +1,10 @@
+;==================================================
+; Search
+;==================================================
+title = Site search
+description = Allow user to search for content
+core = 1.x
+version = 1.0
+group=core
+permanent = TRUE
+position = 3

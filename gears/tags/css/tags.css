@@ -1,0 +1,37 @@
+.node .tags{
+	padding: 0  10px 5px 16px;
+	background: url('/gears/tags/img/icons/tags.gif') no-repeat left top;
+}
+.node .tags a{
+	color: #15B0FD;
+}
+#tags-cloud .l1{
+	color: #E0E0E0;
+}
+#tags-cloud .l2{
+	color: #C1C1C1;
+}
+#tags-cloud .l3{
+	color: #AEAEAE;
+}
+#tags-cloud .l4{
+	color:#9B9B9B;
+}
+#tags-cloud .l5{
+	color: #898989;
+}
+#tags-cloud .l6{
+	color: #6E6E6E;
+}
+#tags-cloud .l7{
+	color: #565656;
+}
+#tags-cloud .l8{
+	color: #363636;
+}
+#tags-cloud .l9{
+	color: #272727;
+}
+#tags-cloud .l10{
+	color: #000000;
+}

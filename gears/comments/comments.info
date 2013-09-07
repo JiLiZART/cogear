@@ -1,0 +1,27 @@
+; Changelog
+;==================================================
+; Version 1.1
+;==================================================
+;	Add ability to use comments with everything you want — just create tables and define settings.
+;==================================================
+; Comments config
+;==================================================
+title = Comments
+description = Allow users to post comments
+core = 1.1
+version = 1.1
+group = modules
+enabled = TRUE
+position = 2
+required[] = mail
+required[] = nodes
+per_page = 20
+time_to_edit = 60
+prevent_doubleposting_time = 3
+models = FALSE
+; Show comments updater on the post page?
+show_updater = TRUE
+;--------------------------------------------------
+; Routes
+;--------------------------------------------------
+routes[] = "pulse/?(.*)? = comments/$1";

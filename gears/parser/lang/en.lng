@@ -1,0 +1,5 @@
+[gears]
+parser = "Parser"
+parser_description = "Filters and processes the data."
+[parser]
+no_text = "In the games we play? The text is simply necessary for the procedure! "

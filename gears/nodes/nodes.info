@@ -1,0 +1,36 @@
+;==================================================
+; Nodes config
+;==================================================
+title = Nodes
+core = 1.x
+version = 1.0
+group = modules
+description = Allow users to create posts
+enabled = TRUE
+routes[] = "create/? = nodes/createdit/";
+routes[] = "create/([\w]+)/? = nodes/createdit/$1";
+routes[] = "edit/([\d]+)/? = nodes/createdit/$1";
+;routes[] = ":empty = nodes"
+
+; IMPORTANT - uncomment if you use pagination prefix (e.g.: "page1", "page2")
+;routes[] = "page(\d+)  = nodes/index/$1"
+
+routes[] = "(.+)-(\d+)\.html = nodes/show/$2/$1"
+position = 10
+count_views = TRUE
+;--------------------------------------------------
+; Node params
+;--------------------------------------------------
+routes[] = "rss/([\w-_]+)-(\d+)\.html = nodes/show/$2/$1"
+; WordPress users, if you want to use url without id's, uncomment it.
+;routes[] = "^(.+)\.html = nodes/show/$1"
+[node]
+url = "(%url_name%)-(%id%)"
+suffix = ".html"
+title_separator = " &larr; "
+
+;--------------------------------------------------
+; Node editing
+;--------------------------------------------------
+; Show annoying message 'draft saved' on every save?
+draft_save_notify = FALSE

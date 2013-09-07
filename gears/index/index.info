@@ -1,0 +1,28 @@
+;==================================================
+; Index config
+;==================================================
+title = Index page
+core = 1.x
+version = 1.0
+group = modules
+enabled = TRUE
+description = Operate index page
+position = 2
+required[] = nodes
+required[] = blogs
+required[] = community
+;--------------------------------------------------
+; Routes
+;--------------------------------------------------
+routes[] = ":empty = index"
+routes[] = "(:num) = index/$1"
+routes[] = "blogs/? = index/0/blogs"
+routes[] = "blogs/?(\d+)/? = index/$1/blogs"
+routes[] = "community/? = index/0/community"
+routes[] = "community/?(\d+)/? = index/$1/community"
+routes[] = "new/? = index/0/new"
+routes[] = "new/?(\d+)/? = index/$1/new"
+routes[] = "rss/new? = index/new"
+routes[] = "rss/blogs? = index/blogs"
+routes[] = "rss/community? = index/community"
+

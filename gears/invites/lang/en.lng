@@ -1,0 +1,25 @@
+[gears]
+invites = "invites"
+invites_description = "Registration by invitation only."
+[invites]
+gift = "Distribution of invitations"
+title = "Access to members only community,"
+invite = "Invitation"
+invites = "Invitations"
+invite_description = "Registration by invitation only.";
+invited = "Invited"
+no_such_invite = "This invitation does not exist or it has already been used!"
+;------------------------------------------------- -
+; Control Panel
+;------------------------------------------------- -
+total_invited = "registered Invitational
+total_invites = "Number of free invitations"
+users = "Who will get the invitation?"
+users_description = "You can type user names separated by a comma or put a sign <strong> * </ strong>, to an invitation received by all users.";
+count = "number of invitations;
+added = "Invitations sent";
+grab = "Filter invitation?";
+grab_description = "all up so the contrary.";
+grabbed = "Invitations to selected";
+access_mode = "Restricting access to the site"
+access_mode_description = "User without authorization will not be able to see the contents of the site."

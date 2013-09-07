@@ -1,0 +1,11 @@
+[gears]
+blogs = "Блоги"
+blogs_description = "Позволяет отображать все публикации пользователя в виде блога."
+
+[blogs]
+blog = "блог"
+personal_blog = "личный блог"
+
+[acl]
+view_unpublished = "Видеть неопубликованные топики"
+

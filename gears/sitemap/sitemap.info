@@ -1,0 +1,6 @@
+title="Sitemap"
+description="Generate search engines compatible xml-sitemap."
+enabled=TRUE;
+group = modules
+position = 10
+routes[] = "/sitemap.xml = /sitemap/show/"

@@ -1,0 +1,19 @@
+[gears]
+buddy = "Buddies"
+buddy_description = "Make links between users."
+
+[buddy]
+allow_mail = "Receive private messages from any site user"
+allow_mail_description = "Uncheck to receive messages only from friends(Buddies)."
+add = "Be a friend"
+add_title = "Friendship invite"
+remove = "Remove from friendlist"
+remove_title = "Termination of friendship"
+add_msg = "Let's be friends!"
+remove_msg = "We are no longer friends :-("
+add_success = "User receives notification of friendship, and possibly take it!"
+remove_success = "Unfortunately, you stopped being friends :-("
+already_friends = "You have friends!"
+wait_for_approve = "You already sent a proposal for friendship! Wait for approval."
+new_friend = "You have a new friend!"
+lost_friend = "You've just lost a friend ..."

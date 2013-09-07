@@ -1,0 +1,12 @@
+[gears]
+tags = "Tags"
+tags_description = "Adding the ability to index topics by tags."
+
+[tags]
+tags = "tags"
+tags_description = "Enter a comma separated tags."
+empty = "There is no tag here yet."
+all_tags = "All tags"
+
+[widgets]
+tags = "tag cloud"

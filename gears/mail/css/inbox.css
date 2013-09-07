@@ -1,0 +1,21 @@
+.inbox .comments_counter{
+	color: #EF1800;
+}
+.inbox .new_comments{
+	color: #13A2E8;
+}
+.inbox .subject {
+}
+.inbox_members img.kick{
+	vertical-align: middle;
+}
+form#inbox-invite input.text,form#inbox-search input.text{
+	float: left;
+}
+form#inbox-invite input.text{
+	width: 500px;
+}
+form#inbox-invite .button,form#inbox-search .button{
+	float: left;
+	margin: 5px;
+}

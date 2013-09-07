@@ -1,0 +1,81 @@
+[gears]
+install = "Install Components"
+install_description = "Allows you to install components and disable them."
+
+[install]
+required = "required"
+require = "Set <strong>%s</strong>"
+require_version = "Need version <strong>%s</strong> component <strong>%s</strong>"
+require_deinstall = "Unable to disable - <strong>%s</strong>"
+version = "Version"
+setup = "Setup"
+repository_access_denied = "repository access denied."
+package = "Select package to boot"
+package_description = "You can download the file archive format <b>. zip </b>, which will contain a folder with a component."
+rewrite = "Overwrite?"
+rewrite_description = "If a component already exists - it will be completely rewritten."
+package_uploaded = "Select the previously downloaded packages"
+upload_success = "Component successfully installed!"
+remote = "Downloading from the remote server"
+remote_description = "Enter the link to the file with a package component, located on a remote server."
+gear = "Select Components"
+update = "update"
+updates = "Updates"
+update_installed_success = "Update successfully installed!"
+check_for_updates = "Check for updates"
+core = "Kernel version"
+core_uncombatible = "Component is not compatible with the current version of the system."
+incomp = "Incompatibility with";
+incomp_with = "Incompatibility with gear ''<strong>%s</strong>''.";
+patch_found = "We find patches for the following gear: <br/>"
+patch_all = "patch everything"
+patch = "patch"
+patch_successed = "Gear <strong>''%s''</strong> successfully patched."
+
+[Setup]
+title = "Installing"
+already_installed = "The system is already installed. <br> If you want to re-install, delete the file global settings <i> / gears / global / global.info </ i>.";
+offline_license = "Unfortunately, we could not establish an Internet connection. The actual text of the license is located at <a href='http://cogear.ru/license.html' target='_blank'> http://cogear.ru/ license.html </a>. "
+step_license = "1. License Agreement";
+step_site = "2. Setting up the site."
+step_database = "3. Connecting to Database";
+step_permissions = "4. Setting Permissions"
+step_admin = "5. Admin registration"
+step_finish = "Installation Complete"
+next = "Next"
+agree = "I agree with <a href='http://cogear.ru/license/' target='_blank'> license agreement </a>"
+install = "Install"
+site_descr = "Welcome to Setup CMS <strong>cogear</strong>. <br> Identify the basic parameters of the site.";
+url = "Address of website"
+url_description = "Enter the address of the site without protocol <i> http:// </i> and subdomain <i> www </i>. <br> Example: <b> cogear.ru </b>"
+name = "Site Title"
+date_format = "Date & Time Format"
+date_format_description = "<a href='http://ru2.php.net/strftime' target='_blank'>Additional information</a>"
+template = "Select a template"
+db_descr = "Enter the information for the database connection."
+hostname = "Database Server"
+hostname_description = "commonly used host localhost - localhost. If you are unsure, leave the default value."
+username = "username"
+password = "password"
+database = "database name"
+dbdriver = "Database Driver"
+no_connect = "The database connection could not be established. <br> Check the connection settings and try again."
+no_dump = "File <i>/cogear.sql </ i> not found. Download the updated distribution.";
+perm_update = "You want to set the correct rights to certain folders for the system to work with them.";
+permissions = "Permissions"
+dir = "directory"
+cur_perms = "Current"
+need_perms = "Required"
+match = "<span class='success'>All true</ span>"
+not_match = "<span class='error'>Error</ span>"
+try = "try to put right"
+perms_try = "The rights to the folder can not be set automatically. <br> Set the necessary permissions on the folders manually."
+finish = "Congratulations on your successful installation! <br> Enjoy content management system <b> cogear </ b> and good luck!"
+
+create_db = "Create a preliminary database?"
+cant_create_db = "Unable to create a''<strong>%s</strong>''. Maybe you do not have rights to create databases."
+no_db = "Base''<strong>%s</strong>''does not exist"
+no_upload_dump = "Do not fill the dump example in the database"
+
+prefix_desc = "prefix can contain only Latin characters and numbers"
+prefix = "prefix for the tables" 

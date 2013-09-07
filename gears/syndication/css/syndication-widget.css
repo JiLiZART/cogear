@@ -1,0 +1,14 @@
+#syndication-widget dl dt{
+	float: left;
+	margin: 0 3px 0 0;
+}
+#syndication-widget dl dd{
+	font-size: 0.87em;
+}
+#syndication-widget dl dd small{
+	display: block;
+	text-align: right;
+}
+#syndication-widget p{
+	font-size: 0.8em;
+}

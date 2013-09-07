@@ -1,0 +1,9 @@
+;==================================================
+; Installer
+;==================================================
+title = Installer
+description = Help to install/deinstall gears.
+core = 1.x
+version = 1.0
+group = core
+position = 1

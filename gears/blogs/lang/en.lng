@@ -1,0 +1,11 @@
+[gears]
+blogs = "Blogs"
+blogs_description = "Show all user nodes as Blog."
+
+[blogs]
+blog = "Blog"
+personal_blog = "Personal Blog"
+
+[acl]
+view_unpublished = "See Unpublished Topics"
+

@@ -1,0 +1,50 @@
+title = Upload
+description = Upload images and files
+core = 1.x
+version = 1.1
+group = core
+permanent = TRUE
+;================================
+; Image upload configuration
+;
+; You can use any CI ImageLib params
+;================================
+; Filesize in Kb
+max_size = 1000
+
+; Image quality
+quality = 100%
+
+; Path to your own watermark or use default /gears/upload/img/watermark.png
+watermark = FALSE
+
+; Is needed, because flash upload via stream
+is_image = TRUE
+
+; Overwrite file if exists
+overwrite = TRUE
+
+; Allowed types
+allowed_types = "gif|jpg|jpeg|png";
+
+; Force replace uploaded file name with random string (md5)
+encode_file_names = FALSE
+
+; Resize image after upload
+; resize = 640x480
+
+;=================================
+; If file will be more then 'after' param
+; thumbnails will be created.
+; If 'resize' param exists, original file will be resized to this size.
+;=================================
+[thumbs]
+size = 150x150
+after = 640x400
+;resize = 800x600;
+
+;=================================
+; Config for thumbs
+;=================================
+;[thumbs_config]
+; There you can use any CodeIgniter Imagelib params for thumbs

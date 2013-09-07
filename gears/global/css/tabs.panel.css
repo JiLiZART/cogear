@@ -1,0 +1,86 @@
+table.tabs td.separator {
+	background: url(/gears/global/img/panel.gif) no-repeat -1px -107px;
+	width: 1px;
+}
+
+table.tabs td.endless {
+	padding: 9px 0px;
+	background: url(/gears/global/img/panel.gif) repeat-x;
+	width: 5%;
+}
+
+table.tabs td a {
+	text-decoration: none;
+}
+
+table.tabs {
+	margin: 5px auto;
+	padding: 0 0px;
+	height: 38px;
+	clear: left;
+	background: url(/gears/global/img/panel.gif) repeat-x 0 1px;
+}
+
+table.tabs.no-margin {
+	margin: 0 auto 20px auto;
+}
+
+table.tabs td.padding-sides {
+	padding: 0 10px;
+}
+
+table.tabs td {
+	font-size: 1em;
+	color: #3C3C3C;
+	cursor: pointer;
+	vertical-align: middle;
+	padding: 2px 3px 0;
+	margin: 0;
+	height: 38px;
+	text-align: center;
+	background: url(/gears/global/img/panel.gif) no-repeat right -107px;
+	
+
+/*border-right: 1px solid #B3B3B3;*/
+	white-space: nowrap;
+}
+
+table.tabs td a {
+	border: none;
+	height: 38px;
+}
+
+table.tabs td.active a, table.tabs td:hover a {
+	color: #fff;
+}
+
+table.tabs td.first {
+	height: 38px;
+	padding: 0;
+
+/*padding: 9px 0;*/
+	background: url(/gears/global/img/panel.gif) no-repeat 0 -162px;
+}
+
+table.tabs td.last {
+	height: 38px;
+	padding: 0;
+
+/*padding: 9px 0px;*/
+	background: url(/gears/global/img/panel.gif) no-repeat right -216px;
+	border-right: none;
+}
+
+table.tabs td.active {
+	background: url(/gears/global/img/panel.gif) repeat-x 0px -53px;
+	color: #fff;
+}
+
+table.tabs td a sup {
+	font-size: 10px;
+	vertical-align: middle;
+}
+
+table.tabs td.normal {
+	color: #000;
+}

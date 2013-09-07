@@ -1,0 +1,9 @@
+[gears]
+meta = "Meta-Information"
+meta_description = "keywords and site description."
+
+[meta]
+fieldset_legend = "Meta Tags"
+keywords = "Meta Keywords"
+keywords_description = "Keywords for which search engine will recongnized the content ',' (comma) seprated."
+description_description = "Description of the content for search engines."

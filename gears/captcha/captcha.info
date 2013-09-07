@@ -1,0 +1,19 @@
+;==================================================
+; Captcha config
+;==================================================
+title = Captcha
+description = Protect form submitting from bots
+core = 1.x
+version = 1.0
+group = modules
+position = 10
+enabled = TRUE
+words = FALSE
+incomp = kcaptcha
+forms = "register,lostpassword,login"
+routes[] = ":any/captcha = captcha/renew";
+routes[] = "captcha = captcha/renew";
+min=5
+max=7
+; Allowable count of mistakes before captcha show itself
+mistakes = 1;

@@ -1,0 +1,8 @@
+[gears]
+jevix = "Jevix"
+jevix_description = "filter HTML-Code"
+[jevix]
+auto_br_mode = "disable automatic transfer lines and process options"
+disable_jevix = "disable parser code"
+[acl]
+disable = "disable"

@@ -1,0 +1,16 @@
+#userinfo_panel > .tweet{
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #1EB3FD;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-radius: 5px;
+	clear:left;
+	width: 95%;
+	line-height: 1.2em;
+}
+.tweet img{
+	margin: 0 10px 0 0;
+}

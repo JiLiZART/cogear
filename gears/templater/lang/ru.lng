@@ -1,0 +1,3 @@
+[gears]
+templater = "Шаблонизатор"
+templater_description = "Работает с PHP-шаблонами и файлами собственного формата.";

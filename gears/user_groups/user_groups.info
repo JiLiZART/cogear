@@ -1,0 +1,10 @@
+;==================================================
+; User groups config
+;==================================================
+title = User groups
+description = User groups managment
+core = 1.x
+version = 1.0
+group = core
+permanent = TRUE
+models = FALSE;

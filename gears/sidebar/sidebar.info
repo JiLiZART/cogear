@@ -1,0 +1,10 @@
+;======================================================================================
+; Sidebar config
+;======================================================================================
+title = Sidebar
+group = modules
+core = 1.x
+version = 1.0
+description = Sidebar widgets
+position = 5
+enabled = TRUE

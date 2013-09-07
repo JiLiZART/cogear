@@ -1,0 +1,60 @@
+title = "Points"
+description = "Rating system."
+core = 1.x
+version = 1.1
+group = modules
+enabled = FALSE
+; Coefficient for power of all users (look at Points model "calculate_vote_points" method)
+strength = 1
+; Minimal rating to have voting ability
+min_to_vote = "-1"
+; How many points should node have to be shown on index
+index_points = "1"
+
+; Charge
+[charge]
+; Turn charge on/off
+enabled = FALSE
+; How many charge to give everyday
+bonus_amount = "5"
+; How much points must user have to get everyday charge bonus =
+bonus_points_require = "5"
+; How much max charge can user have
+max = "100"
+; When user vote, he presents his charge to vote target object user
+gift = FALSE
+
+[nodes]
+enabled = TRUE
+show_points = TRUE
+show_votes = FALSE
+show_to_guests = FALSE
+round = TRUE
+
+[comments]
+enabled = TRUE
+show_points = TRUE
+show_votes = FALSE
+show_to_guests = FALSE
+round = TRUE
+
+[users]
+enabled = TRUE
+show_points = TRUE
+show_votes = TRUE
+show_to_guests = TRUE
+round = FALSE
+
+[community]
+enabled = TRUE
+show_points = TRUE
+show_votes = TRUE
+show_to_guests = TRUE
+round = TRUE
+
+[top]
+per_page = 100
+
+[period]
+nodes = 3
+comments = 3

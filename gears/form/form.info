@@ -1,0 +1,8 @@
+;==================================================
+; Form config
+;==================================================
+title = Form
+description = Form building gear
+core = 1.x
+version = 1.0
+group = core

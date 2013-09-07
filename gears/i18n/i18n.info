@@ -1,0 +1,11 @@
+;==================================================
+; Internationalization
+;==================================================
+title = i18n
+description = Translate everything
+core = 1.x
+version = 1.0
+group = core
+;permanent = TRUE
+enabled = TRUE
+position=0

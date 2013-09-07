@@ -1,0 +1,33 @@
+#sidebar .widget{
+	background: #EBEBEB;
+	border: 2px solid #D1D1D1;
+	padding: 10px;
+	margin: 0 0 10px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-radius: 5px;
+	min-width: 270px;
+	_width: expression(document.body.clientWidth < 270 ? "270" : "auto");
+}
+#sidebar .white{
+	background: #FFFFFF;
+}
+#sidebar .noborder, #sidebar .no-border{
+	border: none;
+}
+
+#sidebar .widget h1{
+ margin: 0 0 5px 0;
+ font-size: 1.4em;
+ font-weight: normal;
+}
+#sidebar .no-padding{
+ padding: 0;
+}
+/*
+ul.widget li.undraggable{
+	visibility: hidden;
+}
+*/

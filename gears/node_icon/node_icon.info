@@ -1,0 +1,6 @@
+title = Node icon
+description = Add image to node
+group = plugins
+enabled = TRUE
+
+icon_size = 100x100

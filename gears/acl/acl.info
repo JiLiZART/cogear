@@ -1,0 +1,10 @@
+;==================================================
+; Access Control Level
+;==================================================
+title = Access control level
+description = Grant or deny access to any gear or its func
+core = 1.x
+version = 1.0
+group = core
+permanent = TRUE
+position = 2

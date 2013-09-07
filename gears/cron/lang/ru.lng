@@ -1,0 +1,25 @@
+[gears]
+cron = "Планировщик"
+cron_description = "Запуск задач по расписанию."
+
+[cron]
+create = "Создать задачу"
+callback = "Обратный вызов"
+callback_description = "Вы можете указать имя функции или же названия модели/класса и вызываемый метод через пробел.
+<p><b>Пример:</b>
+<blockquote>
+<p>
+some_func = <b>some_func</b>();
+</p>
+<p>
+model method = $this-><b>$model</b>-><b>$method</b>();
+</p>
+<p>
+class method  = $this-><b>$class</b>-><b>$method</b>();
+</p>
+</blockquote>
+</p> "
+period = "Периодичность выполнения"
+days = "Раз в %d (день|дня|дней)"
+hours = "Раз в %d (час|часа|часов)"
+minutes = "Раз в %d (минуту|минуты|минут)"

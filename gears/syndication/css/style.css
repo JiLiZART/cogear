@@ -1,0 +1,14 @@
+#syndication_items .odd td{
+	background: #F2F5F6;
+}
+#syndication_items td{
+	padding: 5px;
+	vertical-align: middle;
+}
+#syndication_sources td{
+	vertical-align: middle;
+	padding: 5px;
+}
+table#syndication td{
+	padding: 5px;
+}

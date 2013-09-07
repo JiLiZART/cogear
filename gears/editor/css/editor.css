@@ -1,0 +1,22 @@
+.editor{
+	height: 20px;
+	background: #fff;
+	margin: 0 0 2px 0;
+	padding: 10px 0 0;
+	/*border: 1px solid #E7E7E7;*/
+}
+.editor .btn{
+	width: 16px;
+	height: 16px;
+	padding: 2px 8px 0px;
+	margin: 4px 4px 0px 0px;
+	background-repeat: no-repeat;
+	border:none;
+	border-top: 2px solid transparent;
+	_border-top: 2px solid #FFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+.editor a.btn:hover{
+	border-top: 2px solid #87D1F6;
+}

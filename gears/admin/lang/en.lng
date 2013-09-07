@@ -1,0 +1,8 @@
+[admin]
+control_panel = "Control Panel"
+admin_button = "Control Panel"
+clear_cache = "Clear Cache"
+
+[gears]
+admin = "Control Panel"
+admin_description = "Change Site Settings.";

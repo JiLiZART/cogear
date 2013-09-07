@@ -1,0 +1,6 @@
+title=Nodes moderate
+description=Allow some moderator functionality
+core = 1.x
+version = 1.0
+enabled = TRUE
+group=plugins

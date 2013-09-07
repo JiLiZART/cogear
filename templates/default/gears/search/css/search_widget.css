@@ -1,0 +1,27 @@
+#search_widget input#query{
+	border: none;
+	background: url({$tpl}/images/search.png) no-repeat top left;
+	width: 200px;
+	min-width: 200px;
+	max-width: 210px;
+	height: 34px;
+	padding: 0 0 2px 32px;
+	font-size: 1em;
+}
+#search_widget input#search-submit{
+	border: none;
+	background: url({$tpl}/images/search.png) no-repeat right -34px;
+	cursor: pointer;
+	text-indent: -9999px;
+	height: 34px;
+	width: 54px;
+	line-height: 36px;
+}
+#search_widget input#search-submit:hover{
+	background: url({$tpl}/images/search.png) no-repeat right -68px;
+}
+#search_widget div.field{
+	margin: 0;
+	padding: 0;
+}
+

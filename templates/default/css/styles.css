@@ -1,0 +1,122 @@
+body {
+	background: #000 url({$tpl}images/background.jpg) repeat-x center top;
+	font-family: 'Trebuchet MS',Arial,Verdana,sans-serif;
+	padding: 40px 0;
+}
+#wrapper{
+	font-size: 105%;
+	background-color: #fff;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-box-shadow: 0 1px 20px #BBBBBB;
+	-webkit-box-shadow: 0 1px 20px #BBBBBB;
+	position: relative;
+}
+#twitter{
+	position: absolute;
+	top: -35px;
+	left: 360px;
+	width: 600px;
+}
+#twitter #birdy{
+	display: inline;
+}
+#twitter #birdy a{
+	color: transparent;
+}
+#twitter #tweet{
+	position: absolute;
+	left: 42px;
+	top: 0px;
+}
+#twitter #tweet div{
+	float: left;
+}
+#twitter #tweet #tweet-open{
+	background-color: white;
+	background: url(../images/twitter/box-left.png) no-repeat left top;
+	width: 16px;
+	height: 31px;
+}
+#twitter #tweet #tweet-body a{
+	text-decoration: none;
+	color: #2CCAFF;
+
+}
+#twitter #tweet #tweet-body a:hover{
+	text-decoration: underline;
+}
+#twitter #tweet #tweet-body{
+	background: url(../images/twitter/box-background.gif) repeat-x left top;
+	height: 31px;
+	line-height: 2.6em;
+	font-size: 0.9em;
+	padding: 0 2px;
+	white-space: nowrap;
+}
+#twitter #tweet #tweet-close{
+	background: url(../images/twitter/box-right.png) no-repeat left top;
+	width: 8px;
+	height: 31px;
+}
+
+#content{
+	padding: 10px;
+}
+#content.grid_12{
+	width: 920px;
+}
+#content.grid_8{
+	width: 600px;
+}
+#footer{
+	text-align: right;
+	width: 280px;
+	font-size: 0.85em;
+	color: #292929;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+#footer small{
+	font-size: 0.779em;
+	color: #CCC;
+}
+#statistics{
+	padding: 40px 0 0 0;
+}
+#footer img{
+	vertical-align: middle;
+}
+
+
+a {
+	color: #031B27;
+    text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+fieldset#info{
+	width: 100%;
+}
+p.centered{
+	padding: 10px;
+	background: #BFBFBF;
+	border: 1px solid #9B9B9B;
+	color: #FFF;
+	text-shadow: 0px 1px 2px #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+blockquote{
+	background: #F3F9FF;
+	border:  1px solid #80D3FD;
+	border-left: 4px solid #80D3FD;
+	padding: 10px;
+	margin: 15px;
+}
+
+img {
+	border: none;
+}

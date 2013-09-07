@@ -1,0 +1,10 @@
+[gears]
+search = "Поиск"
+search_description = "Позволяет пользователям пользоваться поиском на сайте."
+
+[search]
+search_for_query = "Поиск"
+not_found = "По данному запросу материалы не найдены."
+
+[widgets]
+search = "Поиск"

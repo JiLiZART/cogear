@@ -1,0 +1,34 @@
+table.grid {
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+
+}
+
+
+table.grid td{
+	padding: 5px 3px;
+}
+table.grid{
+	position: relative;
+	border: 1px solid #7E7E7E;
+
+}
+table.grid thead tr td, table.grid-fixed-thead thead tr td{
+	background: url({$tpl}images/grayscale-bg.png) repeat-x top left;
+	font-size: 0.95em;
+	text-shadow: 0 -1px 0 #3F3F3F;
+	color: #FFF;
+}
+table.grid tbody tr{
+}
+table.grid tr.even td{
+	background: #EBEBEB;
+}
+table.grid-fixed-thead{
+	position: fixed;
+	z-index: 1000;
+}
+table.grid h1{
+	text-align: center;
+	font-size: 1.1em;
+}

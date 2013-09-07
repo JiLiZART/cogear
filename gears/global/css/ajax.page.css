@@ -1,0 +1,12 @@
+.ajax-page {
+	font-size: 0.85em;
+	background: #F8F8F8;
+	border: 1px solid #E0E0E0;
+	padding: 10px;
+	margin: 5px 0;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-radius: 5px;
+}

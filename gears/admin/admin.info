@@ -1,0 +1,17 @@
+;==================================================
+; Admin Control Panel gear config
+;==================================================
+title = Admin Control Panel
+description = Wide capabilities to tune your site. 
+core = 1.x
+version = 1.0
+group = core
+permanent = TRUE
+position = 10
+subdomain = TRUE
+;--------------------------------------------------
+; Routes
+;--------------------------------------------------
+routes[] = "admin/([a-z0-9_]+)/? = $1/_admin";
+routes[] = "admin/([a-z0-9_]+)/?(.*) = $1/_admin/$2";
+

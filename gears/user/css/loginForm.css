@@ -1,0 +1,6 @@
+#loginForm{
+	width:300px;
+}
+#loginForm input[type=text],#loginForm input[type=password]{
+	width:250px;
+}

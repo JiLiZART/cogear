@@ -1,0 +1,9 @@
+[gears]
+video = "Видео"
+video_description = "Позволяет разнообразить материалы при помощи видеохостингов."
+
+[video]
+prompt = "Укажите ссылку на видео с YouTube, RuTube, Vimeo, etc."
+
+[acl]
+video = "Преобразование видео-тегов"

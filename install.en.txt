@@ -1,0 +1,48 @@
+|===============================================================
+| Cogear - website management system operating framework CodeIgniter (Codemotion, http://codemotion.ru)
+|------------------------------------------------- --------------
+| Http://cogear.ru
+|------------------------------------------------- --------------
+| Copyright (c) 2010 Codemotion, Dmitriy Belyaev
+|------------------------------------------------- --------------
+| All rights reserved.
+|===============================================================
+
+Greetings, user of content management system Cogear!
+
+In the system there is a web interface to install, but if it does not work (for reasons of incompatibility with the current configuration of the server), then you need to install the engine by your own.
+
+AUTO INSTALL
+
+The installation consists of the following steps:
+1. Copy the engine in a folder on the server
+2. Open site in your browser.
+3. If you did not spread to the beginning of the installation - remove the line "Options -Indexes -MultiViews" to .htaccess and comment the line "# Options -Indexes"
+4. If the installer does not work (for reasons of incompatibility with the configuration of the servers), then you need to install the engine by hand.
+
+HANDMADE INSTALL
+
+1. Set permissions on folders and files.
+Below is a list of commands for the console, which will help to quickly deal with this problem.
+(chmod - set right,-R - recursive, chown - job owner / group)
+cd put_k_direktorii_s_dvizhkom
+chmod-R 0777 engine / cache & &
+chmod-R 0777 uploads /
+chmod-R 0777 gears /*/*. info
+chown-R user: group *
+
+2. Configure the site.
+Go to the directory gears/global.
+If you already ran the site in your browser, file global.info.default should be copied to global.info.
+If this has not happened yet - copy the manual.
+Install site address without the www and http://
+url = "site.ru"
+If cogear is placed in subfolder, url = "site.ru/subfolder"
+Enter the DSN for the database connection
+database = "mysqli: / / root: password @ localhost / database"
+
+3. Using phpMyAdmin or any other way to create a database, make it right for the above user and import the database dump from the root of the engine / cogear.sql.
+
+Congratulations, the system is installed!
+
+You can enter the site using an administrator account, specify the username admin and password password. 

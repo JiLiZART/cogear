@@ -1,0 +1,9 @@
+title=Favorites
+description=Allow user to add topics to favorites
+core = 1.x
+version = 1.0
+group=modules
+position=5
+enabled = TRUE
+required[] = nodes
+subdomain[] = favorites

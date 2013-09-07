@@ -1,0 +1,13 @@
+;==================================================
+; Parser config
+;==================================================
+title = Parser
+description = Parse input variables and output content;
+core = 1.x
+version = 1.0
+group = core
+permanent = TRUE
+position = 50
+models[] = parser
+routes[] = "preview/? = parser/preview/";
+

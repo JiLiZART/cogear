@@ -1,0 +1,9 @@
+[gears]
+nodes_moderate = "Moderation of publications"
+nodes_moderate_description = "additional functionality to improve the quality of the material."
+
+[nodes_moderate]
+comment = "Comment to the author"
+comment_description = "As a moderator, you can send a comment about the publication of its author."
+pm_subject = "Comment to the material''% s''"
+created_date = "Time of publication"

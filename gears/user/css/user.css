@@ -1,0 +1,30 @@
+a.user,span.user {
+	padding-left: 14px;
+	background: url(/gears/user/img/icon/user-small.gif) no-repeat 0 4px;
+}
+#userinfo_panel {
+	vertical-align: middle;
+}
+#userinfo_panel > * {
+	float: left;
+	margin: 0 5px 0 0;
+	line-height: 2em;
+	vertical-align: middle;
+}
+#userinfo_panel > a > img.avatar{
+	margin-top: 0px;
+}
+#userinfo_panel > a > img{
+	margin-top: 15px;
+}
+#userinfo_panel small{
+	color: #C3C3C3;
+}
+#userinfo_panel h1{
+	margin: 0 5px 0 0;
+}
+input#openid{
+	padding-left: 1em;
+	padding-right: -1em;
+	background: url(/gears/user/img/openid.gif) no-repeat 5px center;
+}

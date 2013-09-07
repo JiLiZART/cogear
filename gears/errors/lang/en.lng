@@ -1,0 +1,13 @@
+[gears]
+errors = "Error Handler"
+errors_description = "Catching and processing errors."
+
+[errors]
+not_authorized = "Insufficient permissions to view the page."
+error = "Error!"
+404 = "Error 404"
+404_descr = "Page Not Found."
+empty = "Here there is nothing to see."
+undefined_site_url = "Not specified site address. Correct the error in the control panel."
+403 = "Access Denied"
+403_descr = "You have insufficient privileges to access this section of the site. <br> Is possible that to gain access you will need to undergo the procedure of <a href='/user/register/'>registration</a>."

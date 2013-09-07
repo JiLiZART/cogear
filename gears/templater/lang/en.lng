@@ -1,0 +1,3 @@
+[gears]
+templater = "Templater"
+templater_description = "Smarty-like syntax, but works much more faster.";

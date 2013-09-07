@@ -1,0 +1,66 @@
+.tab-wrapper
+{
+	padding:				1em 1.5em;
+	margin:					0;
+	border:					1px solid #eee;
+	clear:					both;
+	z-index: 0;
+	background: #FFFFFF url(/gears/global/img/gradient-blue.gif) repeat-x scroll 0 -16px;
+}
+.tab-menu
+{
+	margin:					0;
+	padding:				0;
+	list-style:				none;
+	overflow:				auto;
+	position: relative;
+	_top: 0px;
+	_z-index: 1;
+}
+.tab-menu-wrapper{
+	width: 100%;
+	overflow: hidden;
+	height: 35px;
+	margin: 0 0 -5px 0;
+}
+.tab-menu-scroller{
+	
+}
+.tab-menu li
+{
+	margin:					0 10px 0 0;
+	padding:				0;
+	float:					left;
+	line-height:			2em;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	_position: relative;
+	_top:  0px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+}
+
+.tab-menu li.tab-selected{
+	border-bottom: 1px solid #FCFDFE;
+	color: #464444;
+	background: #FFFFFF url(/gears/global/img/gradient-blue.gif) repeat-x scroll 0 0;
+
+}
+.tab-menu li a
+{
+	padding:				0 .5em;
+	font-weight:			bold;
+	text-decoration: none;
+}
+.tab-menu li a:hover,
+.tab-menu li a:focus
+{
+	/* your effect here */
+}
+.tab-menu li.tab-selected a
+{
+	text-decoration:		none;
+	color:					inherit;
+	/* your effect here */
+}

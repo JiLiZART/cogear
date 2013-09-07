@@ -1,0 +1,8 @@
+[gears]
+sitemap = "Site Map"
+sitemap_description = "generator sitemap for search engines Yandex and Google."
+[sitemap]
+no_map = "Map has not yet been created.";
+map_found = "Detected sitemap of size <b>%s </ b>, created <b>%s</ b>.";
+create_sitemap = "Create sitemap";
+update_sitemap = "Refresh the site map"

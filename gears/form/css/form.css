@@ -1,0 +1,183 @@
+form {
+	margin:  0 0 20px;
+}
+form div.field{
+ text-align: left;
+}
+form p.error{
+	padding: 0;
+	margin: 0;
+}
+form img{
+	vertical-align: middle;
+}
+form fieldset, fieldset{
+	border: 1px solid #D9EAF5;
+	background: #FFFFFF url(/gears/global/img/gradient-blue.gif) repeat-x scroll 0 0;
+	_background: none;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+}
+@media all and (min-width: 0px) {
+	fieldset{
+	 border-top: none;
+	}
+}
+fieldset legend{
+		text-decoration: none;
+}
+form div.field{
+	padding: 2px;
+	margin: 2px;
+	clear: both;
+}
+form div.field .thumbs img{
+	vertical-align: middle;
+	border: 1px solid #C4E3F6;
+	padding: 1px;
+}
+form label{
+	font-size: 1.2em;
+	cursor: pointer;
+}
+form label.small{
+	font-size: 1em;
+}
+form small{
+	font-size: 0.9em;
+	color: #6E6E6E;
+}
+form input.file{
+	color: #B3B3B3;
+}
+form div.field input.text,
+form div.field input.input,
+form div.field input.password {
+	border: 1px solid #9E9E9E;
+	font-size: 1.6em;
+	margin: 0.1em 0em;
+	min-width: 300px;
+	width: 100%;
+	max-width: 760px;
+}
+textarea{
+	min-height: 200px;
+}
+form div.field textarea{
+	width: 100%;
+	_width: 80%;
+	font-size: 1.1em;
+	min-width: 300px;
+	min-height: 200px;
+	max-width: 760px;
+	height: 200px;
+}
+form div.field select{
+	width: 35%;
+	font-size: 0.95em;
+}
+form div.field .datetime select{
+	width:10%;
+}
+form div.field .datetime select.day, form div.field .datetime select.hour, form div.field .datetime select.minute{
+	width:8%;
+}
+form div.field .datetime select.month{
+	width:15%;
+}
+input.checkbox, input.radio{
+	vertical-align: middle;
+	margin: 0;
+}
+
+/* @group selected icons */
+
+a.selectIcons {
+	margin: 2px;
+	padding: 0px;
+	cursor: pointer;
+	float: left;
+	border: 1px solid white;
+}
+
+a.selectIcons_on {
+	margin: 2px;
+	padding: 0px;
+	cursor: pointer;
+	float: left;
+	border: 1px solid #8FC6F8;
+}
+
+a.selectIcons:hover {
+	border: 1px dotted #4AA5F8;
+}
+
+a.toggler {
+	padding: 0px 0 0 12px;
+	_margin: 0 4px 0 0;
+	_padding: 0 16px;
+	_float:left;
+	zoom: 1;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.s_off {
+	background: url(/gears/form/img/toggler.gif) no-repeat 0 -6px;
+	_background: url(/gears/form/img/toggler.gif) no-repeat 4px -4px;
+}
+
+a.s_on {
+	background: url(/gears/form/img/toggler.gif) no-repeat 0 -38px;
+	_background: url(/gears/form/img/toggler.gif) no-repeat 4px -36px;
+}
+
+.collapsed{
+	background: none;
+	border: none;
+	border-top: 1px solid #D9EAF5;
+}
+.inline-indicator{
+	margin: 0 5px;
+}
+form div.field .description{
+	font-size: 0.8em;
+	color: #6E6E6E;
+	border: none;
+	background: none;
+	padding: 0;
+	clear: both;
+}
+form .description{
+ padding: 5px;
+ font-size: 0.9em;
+}
+form a.dragndrop{
+	background: url(/gears/form/img/dd.png) no-repeat 0 2px;
+	margin: 4px 2px;
+	cursor: move;
+}
+form a.dragndrop:hover{
+	background: url(/gears/form/img/dd.png) no-repeat 0 -20px;
+	cursor: move;
+}
+
+form .dragndrop-active{
+	background: #E4F1FA;
+}
+
+form .button{
+	margin: 10px 2px 0px;
+}
+/* @end */
+
+form a#back-link{
+	font-size: 0.8em;
+	vertical-align: middle;
+	color: #CCCCCC;
+	display: inline-block;
+	padding: 0.8em 0 0 0;
+}

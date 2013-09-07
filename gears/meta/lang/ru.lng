@@ -1,0 +1,10 @@
+[gears]
+meta = "Мета-информация"
+meta_description = "Ключевые слова и описание сайта."
+
+[meta]
+fieldset_legend = "Мета-теги"
+keywords = "Ключевые слова"
+keywords_description = "Максимально четко охарактеризуйте материал, введя ключевые слова через запятую."
+description_description = "Для поисковых систем."
+

@@ -1,0 +1,13 @@
+;==================================================
+; Meta config
+;==================================================
+title=Meta
+description=Add meta information for nodes, communities, etc.
+core = 1.x
+version = 1.0
+enabled = TRUE
+position=1
+group=core
+[info]
+keywords = "Ключевые слова"
+description = "Описание сайта"

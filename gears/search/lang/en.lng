@@ -1,0 +1,10 @@
+[gears]
+search = "Search"
+search_description = "Allows users to use search in site."
+
+[search]
+search_for_query = "Search"
+not_found = "Nothing Found for entered keywords. Try different keywords"
+
+[widgets]
+search = "Search"

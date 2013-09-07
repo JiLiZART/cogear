@@ -1,0 +1,15 @@
+[acl]
+create = "Create"
+edit_all = "Edit all"
+edit = "Edit"
+access = "Access"
+delete = "Delete"
+delete_all = "Delete all"
+add = "Add"
+admin = "Access Control Panel"
+url_name = "Set URL name"
+
+[gears]
+acl = "Access Control Lists"
+acl_description = "Differentiation of access rights to modules and their functions."
+

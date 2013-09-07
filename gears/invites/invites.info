@@ -1,0 +1,10 @@
+;==================================================
+; Invites config
+;==================================================
+title = Invites
+description = Access to site or register via invite only
+core = 1.x
+group = modules
+position = 1
+enabled = FALSE
+access_mode = FALSE

@@ -1,0 +1,102 @@
+/* @group main */
+
+html, body {
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ background: #FFF;
+ border: none;
+}
+div {
+	font-family: 'Trebuchet MS',Arial,Verdana,sans-serif;
+	*font-family: Arial,Verdana;
+}
+
+body {
+	height: 100%;
+	margin: 0px;
+	clear: both;
+	overflow: none;
+	font-size: 1em;
+}
+
+#header {
+	height: 100px;
+	margin-bottom: 10px;
+	background: url("/gears/global/img/bg.gif") repeat-x;
+	padding: 30px 0 0 2%;
+}
+#wrapper{
+clear:both;
+margin: 20px auto 0 auto;
+min-width:725px;
+_width: expression(this.offsetWidth < 725?"725":"this.offsetWidth");
+width:95%;
+}
+
+#content {
+	clear:left;
+	float:left;
+	margin-right:2%;
+	width:100%;
+	font-size: 0.9em;
+}
+
+#cpanel {
+	margin: 15px 0 0 40px;
+	float: left;
+}
+
+#footer {
+	float: left;
+	margin: 20px 0 0 0;
+	text-align: right;
+	padding: 0;
+	border-top: 1px solid #CCCCCC;
+	font-size: 0.8em;
+	color: #969696;
+	width:100%;
+	position: relative;
+}
+#footer .counter{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -17px 0 0 -44px; 
+}
+#footer p{
+	padding: 5px 10px 15px;
+	margin: 0;
+}
+
+#footer img {
+	margin: 5px;
+}
+/* @group main */
+
+a {
+	color: #031B27;
+    text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+blockquote{
+	background: #F3F9FF;
+	border:  1px solid #80D3FD;
+	border-left: 4px solid #80D3FD;
+	padding: 10px;
+	margin: 15px;
+}
+
+img {
+	border: none;
+}
+/* @end */
+
+
+
+
+

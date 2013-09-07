@@ -1,0 +1,10 @@
+[gears]
+pager = "Постраничная навигация"
+pager_description = "Позволяет разделять контент на страницы."
+
+[pager]
+first = "&larr;"
+last = "&rarr;"
+next = "туда"
+prev = "сюда"
+

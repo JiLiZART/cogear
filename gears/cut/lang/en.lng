@@ -1,0 +1,9 @@
+[gears]
+cut = "Cut"
+cut_description = "Allow to split node into short and full view."
+
+[cut]
+cut = "Cut"
+prompt = "Cut-link text:"
+more = "Read more"
+

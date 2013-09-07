@@ -1,0 +1,13 @@
+;==================================================
+; Blogs config
+;==================================================
+title = Blogs
+description = Allow to display user nodes as blog
+core = 1.x
+version = 1.0
+group = modules
+enabled = TRUE
+subdomain = TRUE
+position = 1
+per_page = 7
+required[] = nodes

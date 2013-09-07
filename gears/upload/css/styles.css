@@ -1,0 +1,17 @@
+#uploader #images-holder{
+	padding: 5px;
+}
+#uploader .image{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #E8E8E8;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	
+}
+#uploader .image span{
+	position: relative;
+	top:40%;
+}

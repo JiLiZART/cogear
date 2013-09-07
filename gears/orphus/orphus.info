@@ -1,0 +1,9 @@
+;==================================================
+; Orphus configuration file
+;==================================================
+title="Orphus"
+description="SpellCheck"
+enabled=FALSE
+group=plugins
+core=1.x
+version=1.0

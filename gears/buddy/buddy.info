@@ -1,0 +1,10 @@
+;==================================================
+; Buddy config
+;==================================================
+title = Buddy
+description = Allow users to become buddies
+core = 1.x
+version = 1.1
+group = modules
+enabled = TRUE
+position = 1

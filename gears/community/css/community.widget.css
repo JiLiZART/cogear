@@ -1,0 +1,12 @@
+#community_widget img{
+	max-width: 45px;
+	width: expression(this.offsetWidth > 45?"45":"this.offsetWidth");
+}
+
+#community_widget table{
+	width:100%;
+}
+#community_widget table thead td{
+	font-size: 0.7em;
+	text-align: center;
+}

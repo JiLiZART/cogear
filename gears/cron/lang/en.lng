@@ -1,0 +1,24 @@
+[gears]
+cron = "Scheduler"
+cron_description = "Schedule the task to run on defined time." 
+[cron]
+create = "New Task"
+callback = "Callback"
+callback_description = "You can specify a function name or model name / class and method called by a space. 
+<p><b>Example:</b>
+<blockquote>
+<p>
+some_func = <b>some_func</b>();
+</p>
+<p>
+model method = $this-><b>$model</b>-><b>$method</b>();
+</p>
+<p>
+class method  = $this-><b>$class</b>-><b>$method</b>();
+</p>
+</blockquote>
+</p> "
+period = "Period"
+days = "Every %d (day|days)"
+hours = "Every %d (hour|hours)"
+minutes = "Every %d (minute|minutes)"

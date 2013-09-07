@@ -1,0 +1,10 @@
+[gears]
+sidebar = "Sidebar"
+sidebar_description = "Placement and ordering of widgets."
+
+[sidebar]
+widget = "widget"
+widgets = "Widgets"
+no_config = "The configuration file is missing. <br>
+Create a widget of the same name with the file configuration file format <strong>. Ini </ strong> and place it in the same folder. "
+install_reminder = "Do not forget to activate the necessary widgets in the control panel sidebar!"

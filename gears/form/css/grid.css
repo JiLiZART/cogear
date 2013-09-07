@@ -1,0 +1,25 @@
+table.grid {
+	border: 1px solid #D1EAF9;
+}
+table.grid td{
+	padding: 5px 3px;
+}
+table.grid tbody{
+	position: relative;
+}
+table.grid thead, table.grid-fixed-thead{
+	background: #D4EBFA;
+	font-size: 0.85em;
+}
+table.grid tr.even{
+	background: #F3F7F9;
+}
+table.grid-fixed-thead{
+	position: fixed;
+	top: 0px;
+	border: 1px solid #D1EAF9;
+	z-index: 1000;
+}
+table.grid h1{
+	text-align: center;
+}

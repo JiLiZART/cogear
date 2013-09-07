@@ -1,0 +1,1 @@
+<a href="javascript:void(0);" onclick="add_charge('{$user->id}')"><img src="/gears/points/img/add_charge.gif" width="16" height="16" alt="+"></a>

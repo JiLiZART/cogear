@@ -1,0 +1,86 @@
+[gears]
+form = "Forms"
+form_description = "Create a form and processes the information received."
+[form]
+are_you_shure = "Are you sure?";
+command_success = "Mission accomplished";
+command_failure = "Not completed.";
+nothing_selected = "Choose one of the options.";
+no_items = "None.";
+saved = "Data saved";
+saved_failure = "Data has not been saved...";
+updated = "Data updated";
+updated_failure = "Data failed to update...";
+deleted = "Data deleted!";
+deleted_failure = "Data failed to remove...";
+key_miss = "Private key does not match the form given. Reload the page.";
+deleted_success = "Selected items removed";
+
+[edit]
+download = "Download"
+create = "create"
+edit = "edit"
+delete = "Delete"
+destroy = "Delete"
+remove = "Delete"
+save = "Save"
+update = "Update"
+submit = "Submit"
+send = "Email"
+next = "Next"
+check = "Test"
+try = "Correct"
+publish = "Publish"
+preview = "Preview"
+check = "Test"
+reply = "reply"
+generate = "selected"
+name = "Name"
+url_name = "NC"
+icon = "Icon"
+icons = "icons"
+icon_sizes = "The size of icons"
+new = "new"
+description = "Description"
+required = "Required"
+required_description = "Force the user to make a choice."
+type = "Type"
+reset = "Reset"
+upload = "Upload"
+value = "Value"
+body = "Text"
+body_description = "You can use <a href=''javascript:void(0)'' onclick=''ajax.page('/ajax/pages/html',this)''>html-tags</a>."
+left = "left"
+center = "Center"
+right = "right"
+close = "close"
+add = "Add"
+author = "Author"
+created_date = "Created"
+last_update = "Updated"
+choose = "Select"
+pay = "Pay"
+purchase = "Buy"
+buy = "buy"
+reset = "Reset"
+back = "Back"
+
+[form_validation]
+required = "Field <strong>%s</strong> is required."
+isset = "Field <strong>%s</strong> must not be empty."
+valid_email = "Field <strong>%s</strong> must contain the correct mailing address."
+valid_emails = "Field <strong>%s</strong> must contain the correct mailing addresses."
+valid_url = "Field <strong>%s</strong> must contain a valid URL."
+valid_ip = "Field <strong>%s</strong> must contain the valid IP."
+min_length = "The length of the field <strong>%s</strong> should be at least <strong>%s</strong> characters."
+max_length = "The length of the field <strong>%s</strong> should not exceed <strong>%s</strong> characters."
+exact_length = "The length of the field <strong>%s</strong> should be equal <strong>%s</strong> characters."
+alpha = "Field <strong>%s</strong> can only contain letters."
+alpha_numeric = "Field <strong>%s</strong> can only contain letters and numbers."
+alpha_dash = "Field <strong>%s</strong> can only contain letters, numbers, underscores and dashes."
+numeric = "Field <strong>%s</strong> must contain only numbers."
+is_numeric = "Field <strong>%s</strong> must contain only numbers."
+integer = "Field <strong>%s</strong> must contain an integer."
+matches = "value <strong>%s</strong> does not coincide with the value <strong>%s</strong>."
+is_natural = "Field <strong>%s</strong> must contain only positive numbers."
+is_natural_no_zero = "Field <strong>%s</strong> must contain only positive numbers."
