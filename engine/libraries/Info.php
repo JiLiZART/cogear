@@ -116,7 +116,7 @@ class CI_Info {
 			}
 			return $this;
         }
-        $this->process(&$value);
+        $this->process($value);
 		if(strpos($name,' ')){
 			$tmp = explode(' ',$name);
 			$departure = array_shift($tmp);
@@ -149,7 +149,7 @@ class CI_Info {
 		}
 
         if(!$this->content) $this->content = file_get_contents($this->filename);
-        $this->process(&$value);
+        $this->process($value);
 
 		if(strpos($name,' ')){
 			$tmp = explode(' ',$tmp);

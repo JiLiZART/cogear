@@ -1,0 +1,3 @@
+div.alpha,img.alpha,.alpha a,.alpha img,.alpha div, table.fс-tbx tr, table.fс-tbx td, table.fс-tbx {
+	behavior: url(/gears/global/css/iepngfix/iepngfix.htc);
+}

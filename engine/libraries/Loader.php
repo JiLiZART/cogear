@@ -816,7 +816,7 @@ class CI_Loader {
 	    }
 		$this->gears['global'] = $this->info->read(GEARS.'/global/global.info');
 		$this->cache->enabled = $this->gears['global']['cache'];
-		$this->gears['global']['url'] = trim($this->gears['global']['url'],'/');
+		//$this->gears['global']['url'] = trim($this->gears['global']['url'],'/');
 		$this->gears['global']['icon'] = '/gears/global/img/gear.png';
 		//Gears config autoload
 		$this->gears_load();

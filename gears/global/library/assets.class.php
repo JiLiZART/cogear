@@ -141,13 +141,15 @@ class Assets {
 		$output = implode("\n",$output);
 		//$output = preg_replace('#([\t|\r|\n]{3,})#im','',$output);
 		$CI =& get_instance();
-		$output = str_replace('../','http://'.$CI->site->url.'/templates/'.$this->global_template.'/',$output);
-		$output = str_replace('{$tpl}','http://'.$CI->site->url.'/templates/'.$this->global_template.'/',$output);
-		if($CI->uri->subdir){
-		 foreach(array('ajax','gears') as $item){
-			 $output = str_replace('/'.$item,'/'.$CI->uri->subdir.'/'.$item,$output);
-		 }
-		}
+        $url = $CI->uri->url;
+        $full_url = 'http://'.$url.'/templates/'.$this->global_template.'/';
+		$output = str_replace('../',$full_url,$output);
+		$output = str_replace('{$tpl}',$full_url,$output);
+//		if($CI->uri->subdir){
+//		 foreach(array('ajax','gears') as $item){
+//			 $output = str_replace('/'.$item,'/'.$CI->uri->subdir.'/'.$item,$output);
+//		 }
+//		}
 		return $output;
 	}
 
@@ -192,6 +194,7 @@ class Assets {
 		$CI =& get_instance();
 		$suffix = $this->last_mod;
 		$path = str_replace(ROOTPATH,'',ltrim($this->dir,'.')).$this->global_template.'_';
+        $path = $CI->uri->url . $path;
 		$output = "\n".($type == 'js' ? '<script type="text/javascript" src="'.$path.'scripts.js?'.$suffix.'"></script>' : '<link media="screen" type="text/css" href="'.$path.'styles.css?'.$suffix.'" rel="stylesheet" />')."\n";
 		$info = (object)user_agent();
 		$browser = $info->browser.str_replace('.0','',$info->version);

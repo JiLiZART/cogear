@@ -667,7 +667,7 @@ class Form extends Model {
 	 $this->add_way($this->elements[$id],'sortables');
 	 // Add depends param
 	 if(isset($config['depends'])){
-	  $this->add_way(&$this->elements[$id],'depends',"depends['{$this->elements[$id]['depends'][0]}','{$this->elements[$id]['depends'][1]}']");
+	  $this->add_way($this->elements[$id],'depends',"depends['{$this->elements[$id]['depends'][0]}','{$this->elements[$id]['depends'][1]}']");
 	  js('/gears/form/js/inline/depends',FALSE,TRUE);
 	 }
 	 // set key for element
@@ -687,7 +687,7 @@ class Form extends Model {
 	*@param	string $name
 	*@return void
 	*/
-	function add_way(&$elem,$name,$value = FALSE){
+	function add_way($elem,$name,$value = FALSE){
 	  if(isset($elem[$name])){
 		  if(!isset($this->$name) OR !$this->$name) $this->$name = TRUE;
 		  if(isset($elem['class'])){
@@ -711,20 +711,20 @@ class Form extends Model {
 		 }
 		 ksort($this->elements);
 		 $config = array(
-		 'name'=>&$this->name,
-		 'elements'=>&$this->elements,
-		 'method'=>&$this->method,
-		 'action'=>&$this->action,
-		 'ajax'=>&$this->ajax,
-		 'enctype'=>&$this->enctype,
-		 'class'=>&$this->class,
-		 'via_cookie'=>&$this->via_cookie,
-		 'depends'=>&$this->depends,
-		 'js_validation'=>&$this->js_validation,
-		 'errors_location'=>&$this->errors_location,
-	     'errors_msg'=>&$this->errors_msg,
-		 'md5'=>&$this->md5,
-		 'sortables'=>&$this->sortables
+		 'name'=>$this->name,
+		 'elements'=>$this->elements,
+		 'method'=>$this->method,
+		 'action'=>$this->action,
+		 'ajax'=>$this->ajax,
+		 'enctype'=>$this->enctype,
+		 'class'=>$this->class,
+		 'via_cookie'=>$this->via_cookie,
+		 'depends'=>$this->depends,
+		 'js_validation'=>$this->js_validation,
+		 'errors_location'=>$this->errors_location,
+	     'errors_msg'=>$this->errors_msg,
+		 'md5'=>$this->md5,
+		 'sortables'=>$this->sortables
 		 );
 		 return $this->_template('form',$config,TRUE);
 	}
@@ -762,7 +762,7 @@ class Form extends Model {
      // Run form validation and check for the key
      //count($this->form_validation->_config_rules) > 0 && 
      if((count($_POST) > 0 && $this->form_validation->run() === FALSE && strlen(validation_errors()) != 0 OR $key_not_match) OR count($_POST) == 0){
-     	 foreach($this->elements as &$element){
+     	 foreach($this->elements as $element){
 		    if(!in_array($element['type'],explode('|',"submit|reset|button|hidden"))){
 				if($this->input->post($element['name']) && !isset($element['md5'])) $element['value'] = set_value($element['name']);
 				$element['error'] = form_error($element['name']);
@@ -803,7 +803,7 @@ class Form extends Model {
 	$CI =& get_instance();
     $CI->load->model("upload upload","form_upload");
     $result = array();
-		foreach($this->elements as &$element){
+		foreach($this->elements as $element){
 		   if($element['type'] == "file") {
 			   $result[] = $CI->form_upload->file($element);
 /*
@@ -941,7 +941,7 @@ class Form extends Model {
 	function set_values($values = array(),$wrapper = FALSE){
 	 if(!$values) return $this;
 	 $values = (array)$values;
-	 foreach($this->elements as $key=>&$element){
+	 foreach($this->elements as $key=>$element){
 	  foreach($values as $name=>$value){
 		  if(is_array($value) OR is_object($value)){
 			 foreach($values as $key=>$item) $this->set_values($item,$key);
@@ -1222,7 +1222,7 @@ class Form extends Model {
 	*@return mixed
 	*/
 	function find($name,$field='name'){
-		foreach($this->elements as $key=>&$element){
+		foreach($this->elements as $key=>$element){
 			if($element[$field] == $name){
 			 $element['key'] = $key;
 			 return $element;

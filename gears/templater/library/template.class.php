@@ -91,7 +91,7 @@ class Template
 								$this->output[$position] = $template;
 							}
 							else {
-								array_insert(&$this->output,$template,$position);
+								array_insert($this->output,$template,$position);
 							}
 						}
 					else {

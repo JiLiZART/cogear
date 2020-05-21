@@ -31,8 +31,11 @@ class CG_URI extends CI_URI {
 	var $url = FALSE;
 	var $subdir = FALSE;
 	var $subdomain = FALSE;
-	
-	/**
+    var $script_url;
+    var $base_url;
+    var $host_info;
+
+    /**
 	 * Constructor
 	 *
 	 * @return	void
@@ -51,12 +54,14 @@ class CG_URI extends CI_URI {
 	*/
 	function init(){
 		// If engine is in subdir -- check for it
-		$this->url = str_replace(array('http://','www.'),'',$this->loader->gears['global']['url']);
-		$data = parse_url('http://'.$this->url);
-		$this->url = $data['host'];
-		if($this->subdir = isset($data['path']) ? implode('/',preg_split('#/#',$data['path'],3,PREG_SPLIT_NO_EMPTY)) : FALSE){
-			defined('SUBDIR') OR define('SUBDIR','/'.$this->subdir);
-		}
+		//$this->url = str_replace(array('http://','www.'),'',$this->loader->gears['global']['url']);
+		//$data = parse_url('http://'.$this->url);
+		//$this->url = $data['host'];
+        $this->url = $this->base_url(true);
+
+//		if($this->subdir = isset($data['path']) ? implode('/',preg_split('#/#',$data['path'],3,PREG_SPLIT_NO_EMPTY)) : FALSE){
+//			defined('SUBDIR') OR define('SUBDIR','/'.$this->subdir);
+//		}
 		if(filter_var($this->url,FILTER_VALIDATE_IP)){
 			return;
 		}
@@ -76,7 +81,57 @@ class CG_URI extends CI_URI {
             if($this->subdomain && !in_array('ajax',$this->segments)) $this->segments[] = $this->subdomain;
         }	 
 	}
-	
+
+    function script_url()
+    {
+        if($this->script_url===null)
+        {
+            $scriptName=basename($_SERVER['SCRIPT_FILENAME']);
+            if(basename($_SERVER['SCRIPT_NAME'])===$scriptName)
+                $this->script_url=$_SERVER['SCRIPT_NAME'];
+            elseif(basename($_SERVER['PHP_SELF'])===$scriptName)
+                $this->script_url=$_SERVER['PHP_SELF'];
+            elseif(isset($_SERVER['ORIG_SCRIPT_NAME']) && basename($_SERVER['ORIG_SCRIPT_NAME'])===$scriptName)
+                $this->script_url=$_SERVER['ORIG_SCRIPT_NAME'];
+            elseif(($pos=strpos($_SERVER['PHP_SELF'],'/'.$scriptName))!==false)
+                $this->script_url=substr($_SERVER['SCRIPT_NAME'],0,$pos).'/'.$scriptName;
+            elseif(isset($_SERVER['DOCUMENT_ROOT']) && strpos($_SERVER['SCRIPT_FILENAME'],$_SERVER['DOCUMENT_ROOT'])===0)
+                $this->script_url=str_replace('\\','/',str_replace($_SERVER['DOCUMENT_ROOT'],'',$_SERVER['SCRIPT_FILENAME']));
+            else
+                throw new Exception(t('unable to determine the entry script URL.'));
+        }
+        return $this->script_url;
+    }
+
+    function base_url($absolute=false)
+    {
+        if($this->base_url===null)
+            $this->base_url=rtrim(dirname($this->script_url()),'\\/');
+        return $absolute ? $this->host_info() . $this->base_url : $this->base_url;
+    }
+
+    function host_info()
+    {
+        if($this->host_info===null)
+        {
+//            if($secure=$this->getIsSecureConnection())
+//                $http='https';
+//            else
+                $http='http';
+            if(isset($_SERVER['HTTP_HOST']))
+                $this->host_info=$http.'://'.$_SERVER['HTTP_HOST'];
+            else
+            {
+                $this->host_info=$http.'://'.$_SERVER['SERVER_NAME'];
+                //$port=$secure ? $this->getSecurePort() : $this->getPort();
+//                if(($port!==80 && !$secure) || ($port!==443 && $secure))
+//                    $this->host_info.=':'.$port;
+            }
+        }
+
+        return $this->host_info;
+    }
+
 	/**
 	 * Filter segments for malicious characters
 	 *

@@ -342,7 +342,7 @@
 			$stop = TRUE;
 		}
 		preg_match("#(http|ftp|https)://(.[^/]*)#",$link,$matches);
-		$site_url = trim($CI->site->url,'/ ');
+		$site_url = trim($CI->uri->url,'/ ') . $CI->config->item('index_page');
 		if($matches && $matches[2] != $site_url){
 			return $link;	
 		}
@@ -352,7 +352,7 @@
 		if(!$link) {
 			return 'http://'.$CI->uri->url;
 		}
-		 if($CI->site->subdomains && (isset($link[0]) && $link[0] == '/' OR $force_subdomain) && !$no_subdomain){
+		if($CI->site->subdomains && (isset($link[0]) && $link[0] == '/' OR $force_subdomain) && !$no_subdomain){
 			$pieces = explode('/',trim($link,' /'));
 			$subdomain = array_shift($pieces);
 			if($subdomain){
@@ -381,7 +381,6 @@
 	}
 	// ------------------------------------------------------------------------
 
-	
 	/**
 	* Format date corresponding to site settings
 	*
